@@ -35,7 +35,7 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           #filename: bg-triangles.svg
-          filename: bg-fabio.jpg
+          filename: bg-step.svg
           filters:
             brightness: 0.4
 
