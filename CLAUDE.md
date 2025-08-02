@@ -6,6 +6,8 @@ This is the official website for the EEHPCWG Operational Data Analytics Communit
 
 The HPC-ODA.org website serves as the central hub for the Energy Efficient HPC Working Group's Operational Data Analytics Community. The site provides information about the community's mission, activities, resources, and events focused on improving HPC operations through data analytics.
 
+**Current Status**: The website is in active development with the homepage structure complete and content sections being populated.
+
 ## Technology Stack
 - **Static Site Generator**: Hugo (v0.145.0)
   - Access through a proxy script `./hugo.sh` that uses an isolated pinned hugo binary
@@ -32,6 +34,14 @@ The HPC-ODA.org website serves as the central hub for the Energy Efficient HPC W
 hpc-oda/
 ├── assets/              # Static assets
 │   └── media/          # Images, icons, background SVGs
+│       ├── bg-fabio.jpg       # Hero section background
+│       ├── bg-step.svg        # Alternative background
+│       ├── brownbag.jpg       # Brownbag section image
+│       ├── events.jpg         # Events section image
+│       ├── news.jpg           # News section image
+│       ├── show-and-tell.jpg  # Show and tell image
+│       ├── virtual-call.jpg   # Virtual meeting image
+│       └── icons/             # Custom icons
 ├── config/_default/     # Hugo configuration files
 │   ├── hugo.yaml       # Main Hugo config (title, baseURL, build settings)
 │   ├── params.yaml     # Site parameters (appearance, SEO, header/footer)
@@ -40,23 +50,43 @@ hpc-oda/
 │   └── module.yaml     # Hugo modules config
 ├── content/            # Markdown content files
 │   ├── _index.md      # Homepage with landing page blocks
-│   ├── about/         # About section
 │   ├── authors/       # Author profiles
-│   ├── blog/          # Blog posts
+│   │   ├── admin/     # Default admin profile
+│   │   ├── michael-ott/
+│   │   ├── natalie-bates/
+│   │   ├── woong-shin/
+│   │   └── template/  # Template for new authors
+│   ├── blog/          # Blog posts (migrated from examples)
 │   ├── brownbag/      # Brownbag series content
+│   │   └── 2025-09-01-Brownbag-testrun/
 │   ├── events/        # Events content
+│   │   └── 2024-SC24-ODA-BoF/
 │   ├── meetings/      # Regular meetings info
+│   │   └── 2025-05-22.md
 │   ├── news/          # News updates
+│   │   └── 2025-08-02/
 │   └── publications/  # Publications
-├── content-examples/   # Example content (can be removed in production)
+│       ├── netti-conceptual-2021/
+│       └── ott-global-2020/
+├── content-examples/   # Example content (moved from content/)
 ├── hugo-blox/         # HugoBlox theme components
 │   └── blox/          # Custom blocks (community and all-access)
-├── layouts/           # Custom layouts (if any)
+├── layouts/           # Custom layouts
+│   ├── _default/
+│   │   └── single.html
+│   └── partials/
+│       ├── blox/
+│       │   └── markdown.html
+│       └── hooks/
+│           └── head-end/
+│               └── github-button.html
 ├── public/            # Generated site (gitignored)
 ├── resources/         # Hugo resource cache
 ├── go.mod            # Hugo modules dependencies
 ├── go.sum            # Module checksums
 ├── hugo.sh           # Hugo proxy script
+├── hugo_stats.json   # Hugo build statistics
+├── hugoblox.yaml     # HugoBlox configuration
 └── theme.toml        # Theme metadata
 ```
 
@@ -128,12 +158,18 @@ hpc-oda/
 
 ### Content Sections
 
-- **Blog**: Technical articles and tutorials
+- **Blog**: Technical articles and tutorials (currently populated with example content)
 - **News**: Community updates and announcements
+  - Latest: "Site Open is Soon!" (2025-08-02)
 - **Events**: Conference meetings and gatherings
+  - SC24 ODA BoF event page created
 - **Publications**: Research papers and presentations
+  - "A Conceptual Architecture for Control and Observation of HPC Systems" (Netti et al., 2021)
+  - "A Global Survey of Architectural Features of the HPC Data Center Monitoring Systems" (Ott et al., 2020)
 - **Brownbag**: Presentation series information
+  - Test run scheduled for 2025-09-01
 - **Meetings**: Regular community meeting details
+  - Meeting notes template for 2025-05-22
 
 ### Frontmatter Structure
 
@@ -154,15 +190,29 @@ featured: true  # for featured content
 
 The site actively uses these HugoBlox blocks:
 
-- `hero`: Homepage hero section with background image
-- `features`: Mission section with icon grid
-- `cta-image-paragraph`: Activities section with image cards
+- `hero`: Homepage hero section with background image (bg-fabio.jpg)
+  - Title: "The EEHPCWG Operational Data Analytics Community (HPC ODA)"
+  - Tagline: "Cannot improve if we cannot measure!"
+  - Primary action: Brownbag Presentations
+  - Secondary action: News
+- `markdown`: Welcome and Contact sections
+- `features`: Mission section with 6 icon-based goals
+  - Global State-of-Practice
+  - Knowledge Sharing
+  - Next-Gen Infrastructure
+  - System Deployment
+  - Standardization Framework
+  - Data Convergence
+- `cta-image-paragraph`: Activities section with 3 image cards
+  - Monthly Call
+  - Brownbag Series
+  - Events
 - `collection`: Dynamic content listings (news, events, publications)
 
 Additional blocks available but not currently used:
-- `stats`: Statistics display
-- `testimonials`: Customer testimonials
-- `cta-card`: Call-to-action card
+- `stats`: Statistics display (commented out)
+- `testimonials`: Customer testimonials (commented out)
+- `cta-card`: Call-to-action card (commented out)
 
 ## Navigation Structure
 
@@ -198,7 +248,7 @@ Home
 
 1. **BaseURL**: Already correctly set to https://hpc-oda.org/ in hugo.yaml
 
-2. **Hugo Version**: The project uses a proxy script `hugo.sh` to ensure consistent Hugo version
+2. **Hugo Version**: The project uses a proxy script `hugo.sh` to ensure consistent Hugo version (0.145.0)
 
 3. **Netlify References**: The module.yaml imports a netlify plugin, but this doesn't affect Cloudflare deployment
 
@@ -206,10 +256,19 @@ Home
    - Images should be placed in `assets/media/`
    - Hugo automatically processes and optimizes images
    - Generated resources are cached in `resources/_gen/`
+   - Current images include hero backgrounds, activity images, and author avatars
 
 5. **Community Content**: 
    - The site focuses on HPC Operational Data Analytics
    - Content includes technical resources, community events, and knowledge sharing
+   - Main contacts: Michael Ott (Leibniz Supercomputing Center) and Natalie Bates (EE HPC WG)
+
+6. **Recent Changes**:
+   - Blog examples moved to `content-examples/` directory
+   - Homepage structure refined with hero section and mission blocks
+   - Publications section populated with initial papers
+   - Navigation menu restructured with Activities and Resources dropdowns
+   - Custom layouts added for partials and single page templates
 
 ## Common Tasks
 
@@ -269,6 +328,11 @@ This website supports the EEHPCWG (Energy Efficient HPC Working Group) Operation
 - Supporting ODA system deployment at HPC centers
 - Building standardization frameworks
 - Working toward operational data convergence
+
+### Key Activities
+- **Monthly Virtual Meetings**: Regular community calls via Zoom
+- **Brownbag Series**: Invited presentations from global experts covering use cases, experiences, best practices, operations, data engineering, AI, and machine learning
+- **Events**: Community gatherings at major HPC venues for cutting-edge discussions
 
 # important-instruction-reminders
 Do what has been asked; nothing more, nothing less.
