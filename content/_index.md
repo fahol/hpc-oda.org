@@ -36,8 +36,8 @@ sections:
           # Add your image background to `assets/media/`.
           #filename: bg-triangles.svg
           filename: bg-step.svg
-          filters:
-            brightness: 0.4
+          #filters:
+          #  brightness: 0.4
 
   - block: markdown
     id: about
