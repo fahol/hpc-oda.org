@@ -11,6 +11,10 @@ baseURL: 'https://hpc-oda.org/' # Website URL
 ############################
 
 cascade:
+  #
+  # Blog
+  #
+
   # Blog post options
   - _target:
       path: /blog/**
@@ -34,6 +38,35 @@ cascade:
       kind: section
     # Set the listing view
     view: date-title-summary
+
+  #
+  # News
+  #
+
+  # options
+  - _target:
+      path: /news/**
+      kind: page
+    pager: true
+    editable: true
+    hide_date: false
+    show_date_updated: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    share: true
+    # Just use Breadcrumb for navigation on blog post pages?
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
+  # section options
+  - _target:
+      path: /news/*
+      kind: section
+    # Set the listing view
+    view: date-title-summary
+
 
 ############################
 ## LANGUAGE
