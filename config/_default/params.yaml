@@ -33,10 +33,10 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
-    #logo:
-    #  text: ""
-    #  # Logo filename in `assets/media/` folder
-    #  filename: "logo.svg"
+    logo:
+      text: "The HPC ODA Community"
+      # Logo filename in `assets/media/` folder
+      #filename: "logo.svg"
     button:
       enable: false
       text: "Get Started"
