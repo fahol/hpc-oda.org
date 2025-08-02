@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: HPC Operational Data Analytics # Website name
-baseURL: 'https://hpc-oda.org/' # Website URL
+#baseURL: 'https://hpc-oda.org/' # Website URL
 
 ############################
 ## PAGE OPTIONS
