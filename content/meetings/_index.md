@@ -1,5 +1,5 @@
 ---
-title: 'News'
+title: Regular Meetings
 date: 2024-05-19
 type: landing
 
@@ -11,24 +11,11 @@ design:
 sections:
   - block: collection
     content:
-      title: Featured
-      filters:
-        folders:
-          - news
-        featured_only: true
-      count: 4
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 1
-
-  - block: collection
-    content:
-      title: News
+      title: Meeting Minutes
       text: ''
       filters:
         folders:
-          - news
+          - meetings
       count: 100
     design:
       view: article-grid

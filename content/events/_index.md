@@ -1,5 +1,5 @@
 ---
-title: 'News'
+title: 'Events'
 date: 2024-05-19
 type: landing
 
@@ -11,10 +11,10 @@ design:
 sections:
   - block: collection
     content:
-      title: Featured
+      title: Featured Events
       filters:
         folders:
-          - news
+          - events
         featured_only: true
       count: 4
     design:
@@ -24,11 +24,11 @@ sections:
 
   - block: collection
     content:
-      title: News
+      title: Events 
       text: ''
       filters:
         folders:
-          - news
+          - events
       count: 100
     design:
       view: article-grid

@@ -13,27 +13,40 @@ main:
   - name: Mission
     url: /#mission
     weight: 30
-  - name: Activities
-    url: /#activities
-    weight: 40
 
   # Updates
   - name: News 
     weight: 40
     url: news/
-  - name: Blog
-    weight: 45
-    url:  blog/
 
-  # Projects
-  - name: Brownbag Series
+  # Activities
+  - name: Activities
     weight: 50
-    url: brownbag/
-  - name: Publications
-    weight: 60
-    url: publications/
+    hasChildren: true
 
-  # Team
-  - name: Team
+  - parent: Activities
+    name: Regular Meetings
     weight: 100
-    url: authors/
+    url:  meetings/
+  - parent: Activities
+    name: Events
+    weight: 110
+    url:  events/
+  - parent: Activities
+    name: Brownbag
+    weight: 120
+    url:  brownbag/
+
+  # Resources
+  - name: Resources
+    weight: 60
+    hasChildren: true
+
+  - parent: Resources
+    name: Blog
+    weight: 100
+    url: blog/
+  - parent: Resources
+    name: Publications
+    weight: 110
+    url: publications/
