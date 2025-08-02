@@ -9,9 +9,27 @@ design:
 
 # Page sections
 sections:
+  # Banner
+  - block: markdown
+    content:
+      title: 'Events'
+      text: |-
+        Operational Data Analytics community gatherings.
+        Cutting edge discussions with the community
+    design:
+      background:
+        image:
+          filename: events.jpg
+          size: cover
+          position: center
+          filters:
+            brightness: 0.6
+        text_color_light: true
+        
+  # Upcoming (featured)
   - block: collection
     content:
-      title: Featured Events
+      title: Upcoming
       filters:
         folders:
           - events
@@ -20,11 +38,12 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 1
+      columns: 2
 
+  # Past
   - block: collection
     content:
-      title: Events 
+      title: Past Events
       text: ''
       filters:
         folders:
@@ -33,5 +52,5 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 2
+      columns: 3
 ---

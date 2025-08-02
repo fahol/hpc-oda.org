@@ -22,8 +22,6 @@ abstract: |-
   AI-based analysis methods are appealing, but certainly not the only option.
   This BoF aims to bring together practitioners in HPC operations to share use
   cases for ODA, discuss problems and provide feedback.
-  To support this BoF, I discuss the data journey of OLCF in the past two
-  generations of system and share lessons learned in an interactive way.
   
 
 # Event start and end times.
@@ -39,10 +37,11 @@ authors:
   - admin
 
 tags:
-  - Operational Data Analytics
+  - Birds of a Feather
+  - SC25
 
 # Is this a featured Event? (true/false)
-featured: true
+featured: false
 
 image:
   caption: ''
@@ -54,20 +53,9 @@ image:
 #  - name: Link 2.
 #    url: https://www.linkedin.com/posts/woongshin_gave-a-talk-on-olcfs-energy-efficiency-efforts-activity-7194045088488955905-YdRR
 
-#links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
 url_slides: ''
 url_video: ''
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+profile: false
 ---

@@ -9,6 +9,21 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: 'News'
+      text: |-
+        
+    design:
+      background:
+        image:
+          filename: news.jpg
+          size: cover
+          position: center
+          filters:
+            brightness: 0.6
+        text_color_light: true
+
   - block: collection
     content:
       title: Featured

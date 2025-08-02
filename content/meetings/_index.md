@@ -9,6 +9,21 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: 'Regular Meetings'
+      text: |-
+        Monthly online gatherings.
+    design:
+      background:
+        image:
+          filename: virtual-call.jpg
+          size: cover
+          position: center
+          filters:
+            brightness: 0.6
+        text_color_light: true
+
   - block: collection
     content:
       title: Meeting Minutes

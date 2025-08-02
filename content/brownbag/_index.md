@@ -9,9 +9,26 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: 'Brownbag Presentations'
+      text: |-
+        Invited presentations from global experts <br>
+        Use cases, experiences, best practices, Q&A and discussions
+    design:
+      background:
+        image:
+          filename: brownbag.jpg
+          size: cover
+          position: center
+          filters:
+            brightness: 0.6
+        text_color_light: true
+
+  # Upcoming (featured)
   - block: collection
     content:
-      title: Featured
+      title: Upcoming
       filters:
         folders:
           - brownbag
@@ -22,9 +39,10 @@ sections:
       fill_image: false
       columns: 1
 
+  # Past presentations
   - block: collection
     content:
-      title: Presentations
+      title: Past Presentations
       text: ''
       filters:
         folders:
@@ -33,5 +51,5 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 2
+      columns: 3
 ---

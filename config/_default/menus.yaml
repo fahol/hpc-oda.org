@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: About
     weight: 20
-    url: about/
+    url: /#about
   - name: Mission
     url: /#mission
     weight: 30

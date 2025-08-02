@@ -2,22 +2,15 @@
 # Display name
 title: Administrator
 
-# Name pronunciation (optional)
-#name_pronunciation: Administrator
-
 # Full name (for SEO)
 #first_name: Shiung Wu
 #last_name: Chien
-
-# Status emoji
-#status:
-#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Web Administrator
+role: Administrator
 
 # Organizations/Affiliations to show in About widget
 #organizations:
@@ -54,7 +47,3 @@ role: Web Administrator
 # Author's website URL
 #website: ""
 ---
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

@@ -1,15 +1,5 @@
 ---
-title: Data Journey Towards Insights
-event: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC24) - Birds of a Feather on Operational Data Analytics
-event_url: https://sc24.conference-program.com/presentation/?id=bof125&sess=sess668
-
-location: Georgia World Conference Center 
-address:
-  street: 285 Andrew Young International Blvd NW
-  city: Atlanta
-  region: Georgia
-  postcode: '30303'
-  country: United States
+title: Brownbag Test Run
 
 summary: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC24) - Birds of a Feather on Operational Data Analytics
 abstract: |-
@@ -24,9 +14,8 @@ abstract: |-
   cases for ODA, discuss problems and provide feedback.
   To support this BoF, I discuss the data journey of OLCF in the past two
   generations of system and share lessons learned in an interactive way.
-  
 
-# Talk start and end times.
+# Event start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2024-11-20T12:15:00Z'
 date_end: '2024-11-20T13:15:00Z'
@@ -36,23 +25,21 @@ all_day: false
 publishDate: '2024-11-20T00:00:00Z'
 
 authors:
-  - admin
+  - michael-ott
 
 tags:
-  - Operational Data Analytics
+  - Brownbag Presentations
 
-# Is this a featured talk? (true/false)
+# Is this a featured Event? (true/false)
 featured: true
 
 image:
   caption: ''
   focal_point: Right
 
-#links:
-#  - name: Coverage (ORNL)
-#    url: https://www.google.com
-#  - name: Coverage (ORNL)
-#    url: https://www.google.com
+links:
+  - name: Transcript
+    url: https://transcript.url
 
 #links:
 #  - icon: twitter
@@ -61,8 +48,8 @@ image:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: ''
-url_video: ''
+url_slides: 'https://slide-link'
+url_video: 'https://video-link'
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -71,3 +58,7 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+## Discussion
+
+The interesting details of the discussion.

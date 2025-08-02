@@ -6,25 +6,24 @@ type: landing
 design:
   # Default section spacing
   spacing: "6rem"
-
 sections:
   - block: hero
     content:
       title: |-
         The EEHPCWG <br> Operational Data Analytics Community <br> (HPC ODA)
       text: Cannot improve if we cannot measure!
-#      primary_action:
-#        text: Get Started
-#        url: https://hugoblox.com/templates/
-#        icon: rocket-launch
-#      secondary_action:
-#        text: Read the docs
-#        url: https://docs.hugoblox.com
+      primary_action:
+        text: Brownbag Presentations
+        url: brownbag/
+        icon: person-simple-walk
+      secondary_action:
+        text: News!
+        url: news/
       announcement:
         text: "Site Open is Soon!"
         link:
           text: "Read more"
-          url: "/blog/"
+          url: news/2025-08-02
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -39,6 +38,30 @@ sections:
           filename: bg-fabio.jpg
           filters:
             brightness: 0.4
+
+  - block: markdown
+    id: about
+    design:
+      columns: '1'
+    content:
+      title: 'Welcome to the HPC ODA Community'
+      subtitle: ''
+      text: |-
+        The Operational Data Analytics (ODA) Community brings together system
+        administrators, researchers, data scientists, and HPC professionals from
+        around the world who share a common goal: transforming how we understand,
+        monitor, and optimize high-performance computing environments. Whether you're
+        just beginning your journey with operational data or you're a seasoned expert
+        looking to share insights, our community provides a collaborative space to
+        learn, innovate, and advance the field together.
+
+        As HPC systems grow increasingly complex and critical to scientific discovery,
+        the need for sophisticated operational insights has never been greater. Our
+        community recognizes that effective data analytics isn't just about collecting
+        metrics—it's about building sustainable practices, sharing hard-won knowledge,
+        and creating tools that benefit the entire HPC ecosystem. Through open
+        collaboration and shared expertise, we're working to establish best practices
+        that will shape the future of HPC operations worldwide.
 
   #
   # Statistics block
@@ -173,15 +196,14 @@ sections:
 #        css_class: "bg-primary-700"
 #        css_style: ""
 
-  - block: collection
-    content:
-      title: News
-      text: News from the ongoing activities!
-      filters:
-        folders:
-          - news/
+  - block: markdown
+    id: contact
     design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+      columns: '1'
+    content:
+      title: 'Contact Us'
+      subtitle: ''
+      text: |-
+        **Michael Ott** (Lieniz Supercomputing Center) <br>
+        **Natalie Bates** (EE HPC WG)
 ---
