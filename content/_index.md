@@ -10,7 +10,7 @@ sections:
   - block: hero
     content:
       title: |-
-        The EEHPCWG <br> Operational Data Analytics Community <br> (HPC ODA)
+        The EE HPC WG <br> Operational Data Analytics Community <br> (HPC ODA)
       text: Cannot improve if we cannot measure!
       primary_action:
         text: Brownbag Presentations

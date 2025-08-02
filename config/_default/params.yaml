@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Homepage for the EEHPCWG Operational Data Analytics Community (HPC ODA)'
+    description: 'Homepage for the EE HPC WG Operational Data Analytics Community (HPC ODA)'
     #twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
