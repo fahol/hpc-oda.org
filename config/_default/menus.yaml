@@ -3,18 +3,37 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
+  # Main
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
+  - name: About
     weight: 20
-  - name: Solutions
-    url: /#solutions
+    url: about/
+  - name: Mission
+    url: /#mission
     weight: 30
-  - name: Resources
+  - name: Activities
+    url: /#activities
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+
+  # Updates
+  - name: News 
+    weight: 40
+    url: news/
+  - name: Blog
+    weight: 45
+    url:  blog/
+
+  # Projects
+  - name: Brownbag Series
+    weight: 50
+    url: brownbag/
+  - name: Publications
+    weight: 60
+    url: publications/
+
+  # Team
+  - name: Team
+    weight: 100
+    url: authors/

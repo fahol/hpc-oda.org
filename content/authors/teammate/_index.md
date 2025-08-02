@@ -1,39 +1,39 @@
 ---
 # Display name
-title: Administrator
+title: TeamMate
 
 # Name pronunciation (optional)
 #name_pronunciation: Administrator
 
 # Full name (for SEO)
-#first_name: Shiung Wu
-#last_name: Chien
+first_name: Shiung Wu
+last_name: Chien
 
 # Status emoji
 #status:
 #  icon: ☕️
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position/tagline
-role: Web Administrator
+role: Member
 
 # Organizations/Affiliations to show in About widget
-#organizations:
-#  - name: Stanford University
-#    url: https://www.stanford.edu/
+organizations:
+  - name: Stanford University
+    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 
-#profiles:
-#  - icon: at-symbol
-#    url: 'mailto:your-email@example.com'
-#    label: E-mail Me
+profiles:
+  - icon: at-symbol
+    url: 'mailto:your-email@example.com'
+    label: E-mail Me
 #  - icon: brands/x
 #    url: https://twitter.com/GetResearchDev
 #  - icon: brands/instagram
@@ -49,10 +49,10 @@ role: Web Administrator
 #    label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
-#highlight_name: true
+highlight_name: true
 
 # Author's website URL
-#website: ""
+website: ""
 ---
 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
