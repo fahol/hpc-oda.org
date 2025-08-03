@@ -456,6 +456,7 @@ Check Hugo version:
 - [HugoBlox Documentation](https://docs.hugoblox.com/)
 - [HugoBlox Theme](https://github.com/HugoBlox/theme-landing-page)
 - [Markdown Guide](https://www.markdownguide.org/)
+- [Embedding vidio and gifs](https://www.dbbrunson.com/docs/effective-online-presence/markdown-extensions-capabilities/embedding-videos-gifs://www.dbbrunson.com/docs/effective-online-presence/markdown-extensions-capabilities/embedding-videos-gifs/)
 
 ## Community
 
