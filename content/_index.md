@@ -62,6 +62,8 @@ sections:
         collaboration and shared expertise, we're working to establish best practices
         that will shape the future of HPC operations worldwide.
 
+        {{< youtube WSfup7Y-n8o >}}
+
   #
   # Statistics block
   #
