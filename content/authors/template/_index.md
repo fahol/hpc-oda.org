@@ -10,7 +10,7 @@ last_name: Lastname
 superuser: false
 
 # Role/position/tagline
-role: Author
+role: Member
 
 # Organizations/Affiliations to show in About widget
 organizations:

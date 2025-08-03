@@ -10,7 +10,7 @@ last_name: Bates
 superuser: false
 
 # Role/position/tagline
-role: Author
+role: EE HPC WG Technical and Executive Lead
 
 # Organizations/Affiliations to show in About widget
 organizations:

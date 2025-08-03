@@ -7,7 +7,7 @@ title: A Conceptual Framework for HPC Operational Data Analytics
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Alessio Netti
-- admin
+- Woong Shin
 - Michael Ott
 - Torsten Wilde
 - Natalie Bates
