@@ -7,7 +7,7 @@ title: Global Experiences with HPC Operational Data Measurement, Collection and 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Michael Ott
-- admin
+- Woong Shin
 - Norman Bourassa
 - Torsten Wilde
 - Stefan Ceballos
