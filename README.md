@@ -377,6 +377,18 @@ Brief biography paragraph...
 
 Add your photo as `avatar.jpg` or `avatar.png` in the same directory.
 
+## Adding Multi-Media Content
+
+Most of the examples are located in the articles in `./content-examples/`.
+
+### Youtube Video
+
+Below is how you would add a youtube video in the markdown content.
+
+```markdown
+{{< youtube WSfup7Y-n8o >}}
+```
+
 ## Configuration
 
 Key configuration files are in `config/_default/`:
