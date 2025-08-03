@@ -10,7 +10,7 @@ last_name: Ott
 superuser: false
 
 # Role/position/tagline
-role: Team Leader
+role: ODA Team Leader
 
 # Organizations/Affiliations to show in About widget
 organizations:
