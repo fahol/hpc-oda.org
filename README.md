@@ -379,14 +379,207 @@ Add your photo as `avatar.jpg` or `avatar.png` in the same directory.
 
 ## Adding Multi-Media Content
 
-Most of the examples are located in the articles in `./content-examples/`.
+Hugo and HugoBlox provide extensive support for embedding rich media content. Most examples can be found in `./content/blog/` and `./content-examples/`.
 
-### Youtube Video
+### Images
 
-Below is how you would add a youtube video in the markdown content.
+#### Featured Images
+Place a `featured.jpg` or `featured.png` in your page's folder:
+```yaml
+# In frontmatter
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  focal_point: Right  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+```
+
+#### Inline Images
+Store images in `assets/media/` and reference them:
+```markdown
+![Alt text](image-name.jpg)
+```
+
+#### Icons
+Use inline icons with the icon shortcode:
+```markdown
+{{< icon name="python" >}} Python
+{{< icon name="github" >}} GitHub
+```
+
+### Videos
+
+#### YouTube
+```markdown
+{{< youtube VIDEO_ID >}}
+# Example:
+{{< youtube D2vj0WcvH5c >}}
+```
+
+#### Bilibili
+```markdown
+{{< bilibili id="VIDEO_ID" >}}
+# Example:
+{{< bilibili id="BV1WV4y1r7DF" >}}
+```
+
+#### Local Video Files
+Place video files in `assets/media/` or your page folder:
+```markdown
+{{< video src="my_video.mp4" controls="yes" >}}
+```
+
+### Audio
+
+Add podcasts or music by placing MP3 files in the page folder or media library:
+```markdown
+{{< audio src="ambient-piano.mp3" >}}
+```
+
+### Data Visualizations
+
+#### Plotly Charts
+1. Save your Plotly JSON in the page folder (e.g., `line-chart.json`)
+2. Embed it using:
+```markdown
+{{< chart data="line-chart" >}}
+```
+
+Use the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) to create charts.
+
+#### Mermaid Diagrams
+Create flowcharts, sequence diagrams, class diagrams, state diagrams, and Gantt charts:
 
 ```markdown
-{{< youtube WSfup7Y-n8o >}}
+```mermaid
+graph TD
+A[Start] -->|Step 1| B(Process)
+B --> C{Decision}
+C -->|Yes| D[Result 1]
+C -->|No| E[Result 2]
+```
+```
+
+```markdown
+```mermaid
+gantt
+section Project
+Task 1           :done,    des1, 2024-01-06, 2024-01-08
+Task 2           :active,  des2, 2024-01-07, 3d
+Task 3           :         des3, after des1, 1d
+```
+```
+
+#### Mind Maps (Markmap)
+Create mind maps with optional height setting:
+```markdown
+```markmap {height="200px"}
+- Main Topic
+  - Subtopic 1
+    - Detail A
+    - Detail B
+  - Subtopic 2
+    - Detail C
+    - Detail D
+```
+```
+
+#### Data Tables
+Display CSV files as formatted tables:
+```markdown
+{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
+```
+
+### Mathematical Content
+
+Enable math in `config/_default/params.yaml`, then use:
+
+#### Inline Math
+```markdown
+{{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}
+```
+
+#### Block Math
+```markdown
+{{< math >}}
+$$
+\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
+$$
+{{< /math >}}
+```
+
+### Code & Syntax Highlighting
+
+Standard markdown code blocks with language specification:
+```markdown
+```python
+import pandas as pd
+data = pd.read_csv("data.csv")
+data.head()
+```
+```
+
+Configure code theme in `config/_default/params.yaml`.
+
+### Interactive Elements
+
+#### Spoilers/Reveals
+Hide content until clicked:
+```markdown
+{{< spoiler text="👉 Click to view the solution" >}}
+Hidden content here!
+{{< /spoiler >}}
+```
+
+#### Table of Contents
+Add an interactive table of contents:
+```markdown
+{{< toc mobile_only=true is_open=true >}}
+```
+
+### Text Formatting
+
+#### Callouts/Alerts
+Draw attention to important information:
+```markdown
+{{% callout note %}}
+This is an informational note.
+{{% /callout %}}
+
+{{% callout warning %}}
+This is a warning message.
+{{% /callout %}}
+```
+
+#### Highlighting
+```markdown
+<mark>Highlighted text</mark>
+```
+
+#### Todo Lists
+```markdown
+- [x] Completed task
+  - [x] Completed subtask
+- [ ] Pending task
+```
+
+### External Content
+
+In your page's frontmatter, link to external resources:
+```yaml
+# Links to external content
+url_pdf: 'path/to/document.pdf'
+url_slides: 'https://slides.com/presentation'
+url_video: 'https://video-platform.com/video'
+url_code: 'https://github.com/repo'
+url_dataset: 'https://data-repository.com'
+url_poster: 'path/to/poster.pdf'
+url_source: 'https://source-link.com'
+
+# Custom links
+links:
+  - name: Custom Link
+    url: https://example.com
+  - name: Another Link
+    url: https://another-example.com
 ```
 
 ## Configuration
@@ -468,7 +661,7 @@ Check Hugo version:
 - [HugoBlox Documentation](https://docs.hugoblox.com/)
 - [HugoBlox Theme](https://github.com/HugoBlox/theme-landing-page)
 - [Markdown Guide](https://www.markdownguide.org/)
-- [Embedding vidio and gifs](https://www.dbbrunson.com/docs/effective-online-presence/markdown-extensions-capabilities/embedding-videos-gifs://www.dbbrunson.com/docs/effective-online-presence/markdown-extensions-capabilities/embedding-videos-gifs/)
+- [Embedding videos and gifs](https://www.dbbrunson.com/docs/effective-online-presence/markdown-extensions-capabilities/embedding-videos-gifs/)
 
 ## Community
 
