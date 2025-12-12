@@ -7,7 +7,7 @@ The official website for the Energy Efficient HPC Working Group's Operational Da
 The HPC-ODA website serves as the central hub for the Operational Data Analytics Community, bringing together system administrators, researchers, data scientists, and HPC professionals who share a common goal: transforming how we understand, monitor, and optimize high-performance computing environments.
 
 **Live Site**: [https://hpc-oda.org](https://hpc-oda.org)  
-**Staging Site**: [https://develop.hpc-oda.pages.dev](https://develop.hpc-oda.pages.dev)
+**Staging Site**: [https://develop.hpc-oda-org.pages.dev](https://develop.hpc-oda-org.pages.dev)
 
 ## Prerequisites
 
