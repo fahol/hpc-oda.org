@@ -13,8 +13,8 @@ sections:
         The EE HPC WG <br> Operational Data Analytics Community <br> (HPC ODA)
       text: Cannot improve if we cannot measure!
       primary_action:
-        text: Brownbag Presentations
-        url: brownbag/
+        text: TechTalk Presentations
+        url: techtalk/
         icon: person-simple-walk
       secondary_action:
         text: News!
@@ -138,8 +138,8 @@ sections:
             text: Reach out!
             url: /#contact
 
-        - title: Brownbag Series
-          text: Brownbag presentations from the community
+        - title: TechTalk Series
+          text: TechTalk presentations from the community
           feature_icon: check
           features:
             - "Invited presentation from global experts"
@@ -147,8 +147,8 @@ sections:
             - "Operations, Data engineering, AI, Machine Learning"
           image: show-and-tell.jpg
           button:
-            text: Brownbag Series
-            url: brownbag/
+            text: TechTalk Series
+            url: techtalk/
 
         - title: Events
           text: Community gatherings in major HPC venues

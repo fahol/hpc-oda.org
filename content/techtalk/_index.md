@@ -1,5 +1,5 @@
 ---
-title: Brownbag Series
+title: TechTalk Series
 date: 2024-05-19
 type: landing
 
@@ -11,14 +11,14 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'Brownbag Presentations'
+      title: 'TechTalk Presentations'
       text: |-
         Invited presentations from global experts <br>
         Use cases, experiences, best practices, Q&A and discussions
     design:
       background:
         image:
-          filename: brownbag.jpg
+          filename: techtalk.jpg
           size: cover
           position: center
           filters:
@@ -31,7 +31,7 @@ sections:
       title: Upcoming
       filters:
         folders:
-          - brownbag
+          - techtalk
         featured_only: true
       count: 4
     design:
@@ -46,7 +46,7 @@ sections:
       text: ''
       filters:
         folders:
-          - brownbag
+          - techtalk
       count: 100
     design:
       view: article-grid

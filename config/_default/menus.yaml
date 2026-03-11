@@ -33,9 +33,9 @@ main:
     weight: 110
     url:  events/
   - parent: Activities
-    name: Brownbag
+    name: TechTalk
     weight: 120
-    url:  brownbag/
+    url:  techtalk/
 
   # Resources
   - name: Resources
