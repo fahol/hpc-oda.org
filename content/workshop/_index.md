@@ -130,7 +130,7 @@ sections:
 
         Papers accepted and presented at **HPC-ODA 2026** will be published as part of the **SC26 workshop proceedings** in the **IEEE Xplore Digital Library**.
 
-        Lightning talks will be documented in the workshop report and made available through the **EE HPC WG Operational Data Analytics** webpage.
+        A workshop report covering the keynote, lightning talks, and open discussion will be published and distributed through the EE HPC WG Operational Data Analytics team website.
 
         ---
 
