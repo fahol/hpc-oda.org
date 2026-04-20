@@ -34,4 +34,4 @@ Systems operators cited a mix of institutional policy, security and permissions 
 
 The free-form discussion continued at Marriott St. Louis Grand (HPE's Landmark 3 Meeting Room) following the session, with questions ranging from the feasibility of standardization to real-world ML production benefit on HPC operations data.
 
-This BoF is part of a long-running series organized by the [EEHPCWG](https://eehpcwg.llnl.gov/) Operational Data Analytics team. The community debrief took place on December 4, 2025 and the outcomes are informing the planning of the [HPC-ODA 2026 Workshop](/workshop/) at SC26.
+This BoF is part of a long-running series organized by the [EEHPCWG](https://eehpcwg.llnl.gov/) Operational Data Analytics team. The community debrief took place on December 4, 2025 and the outcomes are informing the planning of the [HPC-ODA 2026 Workshop](/workshop2026/) at SC26.

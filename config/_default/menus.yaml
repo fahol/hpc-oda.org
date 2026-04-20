@@ -21,7 +21,7 @@ main:
 
   - name: Workshop
     weight: 40
-    url: workshop/
+    url: workshop2026/
 
   # Activities
   - name: Activities

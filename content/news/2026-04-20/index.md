@@ -38,4 +38,4 @@ All deadlines are 11:59 PM AoE (Anywhere on Earth).
 
 Submissions should use the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) and will be handled via the SC Linklings submission system (link to be posted when open).
 
-Full details are available on the [workshop page](/workshop/). We look forward to receiving your contributions.
+Full details are available on the [workshop page](/workshop2026/). We look forward to receiving your contributions.
