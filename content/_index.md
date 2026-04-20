@@ -121,17 +121,17 @@ sections:
     id: activities
     content:
       items:
-        - title: Monthly Call
-          text: Join our large community on Zoom
+        - title: Regular Meetings
+          text: Monthly community calls, online
           feature_icon: bolt
           features:
             - "Monthly virtual meeting"
             - "Keeping in touch!"
-            - "Reach out!"
+            - "Meeting minutes published openly"
           image: virtual-call.jpg
           button:
-            text: Reach out!
-            url: /#contact
+            text: Meeting Notes
+            url: /meetings/
 
         - title: TechTalk Series
           text: TechTalk presentations from the community

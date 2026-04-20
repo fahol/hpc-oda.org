@@ -48,6 +48,7 @@ sections:
       filters:
         folders:
           - events
+        exclude_featured: true
       count: 100
     design:
       view: article-grid
