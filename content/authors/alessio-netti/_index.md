@@ -4,13 +4,13 @@ first_name: Alessio
 last_name: Netti
 superuser: false
 
-role: Researcher
+role: HPC/AI Research Engineer
 
 organizations:
-  - name: Leibniz Supercomputing Centre
-    url: https://www.lrz.de/
+  - name: DeepL
+    url: https://www.deepl.com/
 
-bio: Alessio Netti is a researcher at Leibniz Supercomputing Centre (LRZ) whose work focuses on operational data analytics for HPC. He is a lead co-author of "A Conceptual Framework for HPC Operational Data Analytics" (IEEE 2021), which establishes the 4x4 scope-and-capability model widely used by the ODA community.
+bio: Alessio Netti (Ph.D., Technical University of Munich, 2022) is an HPC/AI research engineer at DeepL, after earlier work at Leibniz Supercomputing Centre (LRZ) and at Intel on HPC and AI dependability. He is a lead co-author of "A Conceptual Framework for HPC Operational Data Analytics" (IEEE 2021), which establishes the 4x4 scope-and-capability model widely used by the ODA community.
 
 highlight_name: false
 website: ''
