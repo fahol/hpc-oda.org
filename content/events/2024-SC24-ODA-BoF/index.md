@@ -54,7 +54,7 @@ image:
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://drive.google.com/file/d/1JQwXdA9i9FWWiMvq3XwzKLetiINzbD0Y/view?usp=share_link'
 profile: false
 ---
 
