@@ -19,17 +19,8 @@ sections:
         ## 1st International Workshop on HPC Operational Data Analytics
         *Held in conjunction with IEEE/ACM SC 2026, The International Conference for High Performance Computing, Networking, Storage and Analysis, in Chicago, IL*
 
-        <div style="margin: 0.75rem 0 1.25rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem;">
-          <a href="#call-for-participation" style="display:inline-block; padding:0.45rem 0.85rem; border:1px solid #cbd5e1; border-radius:9999px; text-decoration:none;">
-            Call for Participation
-          </a>
-          <a href="#important-dates" style="display:inline-block; padding:0.45rem 0.85rem; border:1px solid #cbd5e1; border-radius:9999px; text-decoration:none;">
-            Important Dates
-          </a>
-          <a href="#publication" style="display:inline-block; padding:0.45rem 0.85rem; border:1px solid #cbd5e1; border-radius:9999px; text-decoration:none;">
-            Publication
-          </a>
-        </div>
+        [Call for Participation](#call-for-participation) &nbsp;·&nbsp; [Important Dates](#important-dates) &nbsp;·&nbsp; [Publication](#publication)
+
         
         ---
         ## Workshop Description
@@ -145,7 +136,7 @@ sections:
 
         ## Program Committee
 
-        Full list TBD.
+        Program committee to be announced.
 
         ## Collaborators
 

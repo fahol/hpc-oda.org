@@ -21,7 +21,7 @@ main:
 
   - name: Workshop
     weight: 40
-    url: workshop/
+    url: workshop2026/
 
   # Activities
   - name: Activities
@@ -46,10 +46,11 @@ main:
     weight: 60
     hasChildren: true
 
-  - parent: Resources
-    name: Blog
-    weight: 100
-    url: blog/
+  # Blog hidden until real ODA content is ready
+  # - parent: Resources
+  #   name: Blog
+  #   weight: 100
+  #   url: blog/
   - parent: Resources
     name: Publications
     weight: 110

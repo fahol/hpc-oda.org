@@ -18,7 +18,7 @@ sections:
     design:
       background:
         image:
-          filename: techtalk.jpg
+          filename: show-and-tell.jpg
           size: cover
           position: center
           filters:
