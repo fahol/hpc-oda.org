@@ -38,7 +38,7 @@ featured: false
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://youtu.be/AAMCetqQRpg'
 
 projects: []
 ---
