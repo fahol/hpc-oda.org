@@ -19,11 +19,6 @@ sections:
       secondary_action:
         text: News!
         url: news/
-      announcement:
-        text: "Site Open is Soon!"
-        link:
-          text: "Read more"
-          url: news/2025-08-02
     design:
       spacing:
         padding: [0, 0, 0, 0]
