@@ -50,7 +50,7 @@ image:
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://drive.google.com/file/d/1QHjUFsUfWm-3A311u1952ZBJVCepwVMv/view?usp=share_link'
 profile: false
 ---
 
