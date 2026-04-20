@@ -10,7 +10,7 @@ last_name: Romanus
 superuser: false
 
 # Role/position/tagline
-role: Staff Scientist
+role: Data Management Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: https://www.nersc.gov/
 
 # Short bio (displayed in user profile at end of posts)
-bio: ''
+bio: Melissa Romanus is a data management engineer at the National Energy Research Scientific Computing Center (NERSC) at Lawrence Berkeley National Laboratory, where she is part of the Operations Technology Group. Her work focuses on the ingestion, collection, analysis, and visualization of real-time streaming operational and systems data in HPC data centers. Her research interests span operational data analytics, the architecture of large-scale data lakes, and automating scientific workloads on HPC systems.
 
 # Social Networking
 profiles:
@@ -29,5 +29,5 @@ profiles:
 highlight_name: false
 
 # Author's website URL
-website: ''
+website: 'https://profiles.lbl.gov/28339-melissa-romanus'
 ---
