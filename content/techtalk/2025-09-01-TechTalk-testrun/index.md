@@ -1,5 +1,5 @@
 ---
-title: Brownbag Test Run
+title: TechTalk Test Run
 
 summary: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC24) - Birds of a Feather on Operational Data Analytics
 abstract: |-
@@ -28,7 +28,7 @@ authors:
   - michael-ott
 
 tags:
-  - Brownbag Presentations
+  - TechTalk Presentations
 
 # Is this a featured Event? (true/false)
 featured: true

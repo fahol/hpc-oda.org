@@ -13,7 +13,7 @@ sections:
     design:
       background:
         image:
-          filename: brownbag.jpg
+          filename: techtalk.jpg
           size: cover
           position: center
           filters:
