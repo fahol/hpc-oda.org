@@ -13,17 +13,12 @@ sections:
         The EE HPC WG <br> Operational Data Analytics Community <br> (HPC ODA)
       text: Cannot improve if we cannot measure!
       primary_action:
-        text: Brownbag Presentations
-        url: brownbag/
+        text: TechTalk Presentations
+        url: techtalk/
         icon: person-simple-walk
       secondary_action:
         text: News!
         url: news/
-      announcement:
-        text: "Site Open is Soon!"
-        link:
-          text: "Read more"
-          url: news/2025-08-02
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -126,20 +121,20 @@ sections:
     id: activities
     content:
       items:
-        - title: Monthly Call
-          text: Join our large community on Zoom
+        - title: Regular Meetings
+          text: Monthly community calls, online
           feature_icon: bolt
           features:
             - "Monthly virtual meeting"
             - "Keeping in touch!"
-            - "Reach out!"
+            - "Meeting minutes published openly"
           image: virtual-call.jpg
           button:
-            text: Reach out!
-            url: /#contact
+            text: Meeting Notes
+            url: /meetings/
 
-        - title: Brownbag Series
-          text: Brownbag presentations from the community
+        - title: TechTalk Series
+          text: TechTalk presentations from the community
           feature_icon: check
           features:
             - "Invited presentation from global experts"
@@ -147,8 +142,8 @@ sections:
             - "Operations, Data engineering, AI, Machine Learning"
           image: show-and-tell.jpg
           button:
-            text: Brownbag Series
-            url: brownbag/
+            text: TechTalk Series
+            url: techtalk/
 
         - title: Events
           text: Community gatherings in major HPC venues
@@ -205,6 +200,6 @@ sections:
       title: 'Contact Us'
       subtitle: ''
       text: |-
-        **Michael Ott** (Lieniz Supercomputing Center) <br>
+        **Michael Ott** (Leibniz Supercomputing Center) <br>
         **Natalie Bates** (EE HPC WG)
 ---

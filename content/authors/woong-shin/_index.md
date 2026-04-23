@@ -10,7 +10,7 @@ last_name: Shin
 superuser: false
 
 # Role/position/tagline
-role: Member
+role: Research Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:

@@ -1,5 +1,7 @@
 ---
-title: Blog
+title: TechTalk Series
+date: 2024-05-19
+type: landing
 
 design:
   # Section spacing
@@ -9,24 +11,27 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'Blog'
+      title: 'TechTalk Presentations'
+      text: |-
+        Invited presentations from global experts <br>
+        Use cases, experiences, best practices, Q&A and discussions
     design:
       background:
         image:
-          filename: techtalk.jpg
+          filename: show-and-tell.jpg
           size: cover
           position: center
           filters:
             brightness: 0.6
         text_color_light: true
 
-      columns: 1
+  # Upcoming (featured)
   - block: collection
     content:
-      title: Featured
+      title: Upcoming
       filters:
         folders:
-          - blog
+          - techtalk
         featured_only: true
       count: 4
     design:
@@ -34,16 +39,17 @@ sections:
       fill_image: false
       columns: 1
 
+  # Past presentations
   - block: collection
     content:
-      title: Posts
+      title: Past Presentations
       text: ''
       filters:
         folders:
-          - blog
+          - techtalk
       count: 100
     design:
       view: article-grid
       fill_image: false
-      columns: 2
+      columns: 3
 ---

@@ -10,7 +10,7 @@ last_name: Hanson
 superuser: false
 
 # Role/position/tagline
-role: Member
+role: Monitoring Team Manager, HPC Cluster Products
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,13 +18,13 @@ organizations:
     url: https://www.hpe.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am really interested in operational data engineering and metadata
+bio: Jeff Hanson manages the monitoring team for HPE HPC cluster products (CSM and HPCM). His background includes 25 years in various HPC roles, from engineering to research to support. He holds an MS in mathematics from Purdue University.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/jeff-hanson-2862731/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
