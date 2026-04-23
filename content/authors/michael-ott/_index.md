@@ -10,7 +10,7 @@ last_name: Ott
 superuser: false
 
 # Role/position/tagline
-role: ODA Team Leader
+role: Senior Research Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
