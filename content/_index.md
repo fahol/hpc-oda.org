@@ -200,6 +200,6 @@ sections:
       title: 'Contact Us'
       subtitle: ''
       text: |-
-        **Michael Ott** (Lieniz Supercomputing Center) <br>
+        **Michael Ott** (Leibniz Supercomputing Center) <br>
         **Natalie Bates** (EE HPC WG)
 ---

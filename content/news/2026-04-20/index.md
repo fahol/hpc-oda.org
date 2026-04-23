@@ -4,9 +4,11 @@ date: 2026-04-20T12:00:00Z
 draft: false
 authors:
   - michael-ott
-  - woong-shin
-  - natalie-bates
+  - ayse-coskun
+  - jeff-hanson
   - melissa-romanus
+  - woong-shin
+  - tim-osborne
 featured: true
 tags:
   - Workshop
