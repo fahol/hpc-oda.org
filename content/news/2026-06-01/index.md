@@ -35,8 +35,8 @@ All deadlines are 11:59 PM AoE (Anywhere on Earth).
 
 ### How to Submit
 
-Submissions are handled via the [SC Linklings submission system](https://submissions.supercomputing.org):
-* For **short and full papers** select *SC Workshop: HPC-ODA Lightning Talk*
-* For **lightning talksi** select *SC Workshop: HPC-ODA Lightning Talk*
+Submissions are handled via the SC Linklings submission system:
+- [Short/Long Paper](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODASubmission&site=sc26)
+- [Lightning Talk](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODALightningTalkSubmission&site=sc26)
 
 Full details are available on the [workshop page](/workshop2026/). We look forward to receiving your contributions.

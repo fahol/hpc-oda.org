@@ -85,7 +85,7 @@ sections:
           - **Short papers** — 4 two-column pages, appropriate for work-in-progress or focused contributions  
           - **Full papers** — 8 two-column pages, for mature research contributions  
 
-        All papers must be submitted in PDF format using the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) via the [SC Linklings submission system](https://submissions.supercomputing.org) (select *SC Workshop: HPC-ODA*). Each submission will receive a minimum of three single-blind peer reviews.
+        All papers must be submitted in PDF format using the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) via the SC Linklings submission system (link below). Each submission will receive a minimum of three single-blind peer reviews.
 
         In support of the [SC26 Reproducibility Initiative](https://sc26.supercomputing.org/program/papers/reproducibility-initiative/), authors may optionally submit an Artifact Description and Artifact Evaluation (AD/AE) appendix. This appendix will not be reviewed but will be included with papers after acceptance, in accordance with SC26 guidelines.
 
@@ -95,9 +95,12 @@ sections:
 
         Lightning talks provide an opportunity to present emerging work, operational experiences, tools, dashboards, and other contributions that may not be suitable for full or short paper submissions. Submissions are welcome from across the HPC community, including researchers, practitioners, and students. We especially encourage contributions that share early-stage ideas, operational insights, or practical experiences.
 
-        Lightning talk submissions should consist of an extended abstract (1–2 pages) in PDF format and must be submitted via the [SC Linklings submission system](https://submissions.supercomputing.org) (select *SC Workshop: HPC-ODA Lightning Talk*). There is no strict formatting requirement; however, submissions should be clear, well-structured, and comparable in scope to a short paper (e.g., including motivation, approach, and key outcomes). Submissions should be provided as a PDF.
+        Lightning talk submissions should consist of an extended abstract (1–2 pages) in PDF format and must be submitted via the SC Linklings submission system (link below). There is no strict formatting requirement; however, submissions should be clear, well-structured, and comparable in scope to a short paper (e.g., including motivation, approach, and key outcomes). Submissions should be provided as a PDF.
 
         Submissions will be peer-reviewed for relevance and quality. Accepted lightning talks will be allocated a 5-minute presentation slot and will be documented in the HPC-ODA workshop report published through the EE HPC WG.
+
+        - [Short/Long Paper submission link](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODASubmission&site=sc26)
+        - [Lightning Talk submission link](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODALightningTalkSubmission&site=sc26)
 
         ### {{< icon name="cpu-chip" >}} AI Use Policy
 
