@@ -32,7 +32,7 @@ sections:
       filters:
         folders:
           - techtalk
-        featured_only: true
+        exclude_past: true
       count: 4
     design:
       view: article-grid
@@ -47,6 +47,7 @@ sections:
       filters:
         folders:
           - techtalk
+        exclude_future: true
       count: 100
     design:
       view: article-grid
