@@ -138,8 +138,29 @@ sections:
         - [Tim Osborne](https://www.linkedin.com/in/tim-osborne-9b442278/), ORNL
 
         ## Program Committee
-
-        Program committee to be announced.
+        - Andrea Bartolini, University of Bologna
+        - Andrea Borghesi, University of Bologna
+        - Norman J Bourassa, Lawrence Berkeley National Laboratory/NERSC
+        - Jim Brandt, Sandia National Laboratories
+        - Wesley Brewer	Oak Ridge National Laboratory
+        - Paul Brunk, University of Georgia
+        - Valeria Cardellini, Tor Vergata University of Rome
+        - Wolfgang Frings, Jülich Supercomputing Centre
+        - Filipe Guimarães, Jülich Supercomputing Centre
+        - Ahmad Maroof Karimi, Oak Ridge National Laboratory
+        - Matthias Maiterth, NVIDIA
+        - Beste	Oztop, Boston University
+        - Rachel Palumbo, Oak Ridge National Laboratory
+        - Tapasya Patki, Lawrence Livermore National Laboratory
+        - Jie Ren, College of William & Mary
+        - Efe Sencan, Boston University
+        - Kathleen Shoga, Lawrence Livermore National Laboratory
+        - Frédéric Suter, Oak Ridge National Laboratory
+        - Devesh Tiwari, Northeastern University
+        - Torsten Wilde, Hewlett Packard Enterprise
+        - Daniel C. Wilson, Boston University
+        - Mike Woodacre, Hewlett Packard Enterprise
+        - Keiji	Yamamoto, RIKEN Center for Computational Science
 
         ## Collaborators
 
