@@ -19,6 +19,8 @@ sections:
         ## 1st International Workshop on HPC Operational Data Analytics
         *Held in conjunction with IEEE/ACM SC 2026, The International Conference for High Performance Computing, Networking, Storage and Analysis, in Chicago, IL*
 
+        **Friday, 20 November 2026, 8:30am - 12:30pm**
+
         [Call for Participation](#call-for-participation) &nbsp;·&nbsp; [Important Dates](#important-dates) &nbsp;·&nbsp; [Publication](#publication)
 
         
@@ -117,6 +119,7 @@ sections:
         - **September 18, 2026** — Camera-Ready Deadline
         - **September 18, 2026** — Lightning Talk Submission Deadline
         - **September 25, 2026** — Lightning Talk Notification
+        - **November 20, 2026**  — Workshop: 8:30am - 12:30pm
 
         ---
 
