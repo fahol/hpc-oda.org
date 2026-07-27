@@ -85,7 +85,7 @@ sections:
           - **Short papers** — 4 two-column pages, appropriate for work-in-progress or focused contributions  
           - **Full papers** — 8 two-column pages, for mature research contributions  
 
-        All papers must be submitted in PDF format using the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) via the SC Linklings submission system (link below). Each submission will receive a minimum of three single-blind peer reviews.
+        The page limit does not include references, acknowledgements, etc. All papers must be submitted in PDF format using the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) via the SC Linklings submission system (link below). Each submission will receive a minimum of three single-blind peer reviews.
 
         In support of the [SC26 Reproducibility Initiative](https://sc26.supercomputing.org/program/papers/reproducibility-initiative/), authors may optionally submit an Artifact Description and Artifact Evaluation (AD/AE) appendix. This appendix will not be reviewed but will be included with papers after acceptance, in accordance with SC26 guidelines.
 
