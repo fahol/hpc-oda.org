@@ -114,7 +114,8 @@ sections:
 
         All deadlines are **11:59 PM AoE (Anywhere on Earth)**.
 
-        - **July 31, 2026** — Full / Short Paper Submission Deadline
+        - ~~**July 31, 2026** — Full / Short Paper Submission Deadline~~
+        - **August 12, 2026** — Full / Short Paper Submission Deadline
         - **September 4, 2026** — Full / Short Paper Notification
         - **September 18, 2026** — Camera-Ready Deadline
         - **September 18, 2026** — Lightning Talk Submission Deadline
@@ -151,6 +152,7 @@ sections:
         - Wolfgang Frings, Jülich Supercomputing Centre
         - Filipe Guimarães, Jülich Supercomputing Centre
         - Ahmad Maroof Karimi, Oak Ridge National Laboratory
+        - Kadidia Konate, Lawrence Berkeley National Laboratory/NERSC
         - Matthias Maiterth, NVIDIA
         - Beste	Oztop, Boston University
         - Rachel Palumbo, Oak Ridge National Laboratory
