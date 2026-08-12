@@ -166,6 +166,11 @@ sections:
         - Daniel C. Wilson, Boston University
         - Mike Woodacre, Hewlett Packard Enterprise
         - Keiji	Yamamoto, RIKEN Center for Computational Science
+        - Leah Huk, Oak Ridge National Laboratory
+        - Awais Khan, Oak Ridge National Laboratory
+        - Insaf Benlamari, Leibniz Supercomputing Centre
+        - Lluis Alonso, Barcelona Supercomputing Center
+        - Jan Mäder, Leibniz Supercomputing Centre
 
         ## Collaborators
 
