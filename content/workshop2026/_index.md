@@ -171,6 +171,7 @@ sections:
         - Insaf Benlamari, Leibniz Supercomputing Centre
         - Lluis Alonso, Barcelona Supercomputing Center
         - Jan Mäder, Leibniz Supercomputing Centre
+        - Kevin Menear, National Laboratory of the Rockies
 
         ## Collaborators
 
