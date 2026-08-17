@@ -142,21 +142,31 @@ sections:
         - [Tim Osborne](https://www.linkedin.com/in/tim-osborne-9b442278/), ORNL
 
         ## Program Committee
+        - Lluis Alonso, Barcelona Supercomputing Center
+	- Francesco Antici, University of Bologna
         - Andrea Bartolini, University of Bologna
+        - Insaf Benlamari, Leibniz Supercomputing Centre
+	- Mario Bielert, Technische Universität Dresden
         - Andrea Borghesi, University of Bologna
         - Norman J Bourassa, Lawrence Berkeley National Laboratory/NERSC
         - Jim Brandt, Sandia National Laboratories
         - Wesley Brewer	Oak Ridge National Laboratory
         - Paul Brunk, University of Georgia
         - Valeria Cardellini, Tor Vergata University of Rome
+	- Christian von Elm, Technische Universität Dresden
         - Wolfgang Frings, Jülich Supercomputing Centre
         - Filipe Guimarães, Jülich Supercomputing Centre
+        - Leah Huk, Oak Ridge National Laboratory
         - Ahmad Maroof Karimi, Oak Ridge National Laboratory
+        - Awais Khan, Oak Ridge National Laboratory
         - Kadidia Konate, Lawrence Berkeley National Laboratory/NERSC
         - Matthias Maiterth, NVIDIA
+        - Jan Mäder, Leibniz Supercomputing Centre
+        - Kevin Menear, National Laboratory of the Rockies
         - Beste	Oztop, Boston University
         - Rachel Palumbo, Oak Ridge National Laboratory
         - Tapasya Patki, Lawrence Livermore National Laboratory
+	- Pierrick Pochelu, LuxProvide
         - Jie Ren, College of William & Mary
         - Efe Sencan, Boston University
         - Kathleen Shoga, Lawrence Livermore National Laboratory
@@ -166,12 +176,6 @@ sections:
         - Daniel C. Wilson, Boston University
         - Mike Woodacre, Hewlett Packard Enterprise
         - Keiji	Yamamoto, RIKEN Center for Computational Science
-        - Leah Huk, Oak Ridge National Laboratory
-        - Awais Khan, Oak Ridge National Laboratory
-        - Insaf Benlamari, Leibniz Supercomputing Centre
-        - Lluis Alonso, Barcelona Supercomputing Center
-        - Jan Mäder, Leibniz Supercomputing Centre
-        - Kevin Menear, National Laboratory of the Rockies
 
         ## Collaborators
 
