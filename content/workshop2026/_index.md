@@ -143,17 +143,17 @@ sections:
 
         ## Program Committee
         - Lluis Alonso, Barcelona Supercomputing Center
-	- Francesco Antici, University of Bologna
+        - Francesco Antici, University of Bologna
         - Andrea Bartolini, University of Bologna
         - Insaf Benlamari, Leibniz Supercomputing Centre
-	- Mario Bielert, Technische Universität Dresden
+        - Mario Bielert, Technische Universität Dresden
         - Andrea Borghesi, University of Bologna
         - Norman J Bourassa, Lawrence Berkeley National Laboratory/NERSC
         - Jim Brandt, Sandia National Laboratories
-        - Wesley Brewer	Oak Ridge National Laboratory
+        - Wesley Brewer, Oak Ridge National Laboratory
         - Paul Brunk, University of Georgia
         - Valeria Cardellini, Tor Vergata University of Rome
-	- Christian von Elm, Technische Universität Dresden
+        - Christian von Elm, Technische Universität Dresden
         - Wolfgang Frings, Jülich Supercomputing Centre
         - Filipe Guimarães, Jülich Supercomputing Centre
         - Leah Huk, Oak Ridge National Laboratory
@@ -166,7 +166,7 @@ sections:
         - Beste	Oztop, Boston University
         - Rachel Palumbo, Oak Ridge National Laboratory
         - Tapasya Patki, Lawrence Livermore National Laboratory
-	- Pierrick Pochelu, LuxProvide
+        - Pierrick Pochelu, LuxProvide
         - Jie Ren, College of William & Mary
         - Efe Sencan, Boston University
         - Kathleen Shoga, Lawrence Livermore National Laboratory
