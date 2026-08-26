@@ -27,7 +27,7 @@ featured: true
 
 url_code: ''
 url_pdf: ''
-url_slides: ''
+url_slides: 'https://drive.google.com/file/d/1m1E0vMxkx_XVMyF_S1ScnnUajxR01DGJ/view?usp=drive_link'
 url_video: ''
 
 projects: []
