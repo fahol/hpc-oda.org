@@ -6,7 +6,7 @@ authors:
   - woong-shin
   - michael-ott
   - natalie-bates
-featured: true
+featured: false
 tags:
   - TechTalk
 ---

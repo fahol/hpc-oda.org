@@ -1,13 +1,14 @@
 ---
 # Display name
 title: Administrator
+draft: true
 
 # Full name (for SEO)
 #first_name: Shiung Wu
 #last_name: Chien
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position/tagline
 role: Administrator

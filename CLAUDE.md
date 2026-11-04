@@ -24,7 +24,7 @@ The HPC-ODA.org website serves as the central hub for the Energy Efficient HPC W
   - `main` → Production environment
 - **Staging**: Cloudflare Pages monitors `develop` branch
 - **Production**: Cloudflare Pages monitors `main` branch
-- **Preview URL (develop branch)**: https://develop.hpc-oda.pages.dev
+- **Preview URL (develop branch)**: https://develop.hpc-oda-org.pages.dev
 - **Live URL (main branch)**: https://hpc-oda.org
 - **Deployment Method**: Manual push to respective branches (no CI/CD)
 

@@ -9,7 +9,7 @@ authors:
   - melissa-romanus
   - woong-shin
   - tim-osborne
-featured: true
+featured: false
 tags:
   - Workshop
   - SC26

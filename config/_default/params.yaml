@@ -11,7 +11,7 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
     org_name: ''
     description: 'Homepage for the EE HPC WG Operational Data Analytics Community (HPC ODA)'

@@ -1,45 +1,48 @@
 ---
 title: "1st International Workshop on HPC Operational Data Analytics (HPC-ODA 2026)"
 event: "SC26 -- The International Conference for High Performance Computing, Networking, Storage, and Analysis"
-event_url: https://sc26.supercomputing.org/
+event_url: https://sc26.conference-program.com/session/?sess=sess153
 
-location: "SC26, Chicago, IL (exact room to be announced)"
+location: "McCormick Place, Room W190b"
 address:
+  street: 2301 S Martin Luther King Dr
   city: Chicago
   region: Illinois
+  postcode: '60616'
   country: United States
 
-summary: Inaugural peer-reviewed HPC-ODA workshop at SC26 in Chicago. Paper and lightning talk submissions open; CFP deadline July 31, 2026.
+summary: Peer-reviewed HPC-ODA workshop at SC26. Submissions are closed and the program is final. Friday, 20 November 2026, 8:30am-12:00pm US Central, McCormick Place Room W190b.
 abstract: |-
   The 1st International Workshop on HPC Operational Data Analytics (HPC-ODA 2026)
-  will be held in conjunction with SC26 in Chicago, Illinois. Building on eight
-  years of successful Birds-of-a-Feather sessions at SC and ISC, the workshop
-  transitions the HPC-ODA community to a peer-reviewed format, enabling deeper
-  technical engagement and producing archival publications in the IEEE Xplore
-  Digital Library as part of the SC26 workshop proceedings.
+  is held with SC26 in Chicago, Illinois. Submissions are closed and the program
+  is final. The workshop runs Friday, 20 November 2026, 8:30am-12:00pm US Central,
+  in Room W190b at McCormick Place.
 
-  The workshop welcomes full papers (8 pages), short papers (4 pages), and
-  5-minute lightning talks on any aspect of operational data analytics in HPC:
-  ODA infrastructure, data collection pipelines, visualization and analytics,
-  machine learning, standardization and governance, energy and sustainability,
-  digital twins, and HPC use cases and best practices.
+  Building on eight years of Birds-of-a-Feather sessions at SC and ISC, the
+  workshop is a peer-reviewed meeting. Accepted full and short papers are
+  archived in the SC26 workshop proceedings in the IEEE Xplore Digital Library.
 
-  See the [Call for Papers](/workshop2026/) for submission details and deadlines.
+  The published agenda, accepted presentations, and session chairs are on the
+  [workshop program page](/workshop2026/). The SC26 schedule does not label
+  individual talks as full papers or short papers.
 
-# Event start and end times. Exact workshop day at SC26 TBA;
-# placeholder within SC26 conference week.
-date: '2026-11-16T00:00:00Z'
-date_end: '2026-11-16T23:59:00Z'
-all_day: true
+# Official SC26 schedule: Friday 20 November 2026, 8:30am-12:00pm CST (UTC-6).
+date: '2026-11-20T08:30:00-06:00'
+date_end: '2026-11-20T12:00:00-06:00'
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2026-04-20T00:00:00Z'
 
+# Matches the workshop page organizing committee.
+# See the pull request for people who appear on only one of the earlier lists.
 authors:
   - michael-ott
-  - woong-shin
-  - natalie-bates
+  - ayse-coskun
+  - jeff-hanson
   - melissa-romanus
+  - woong-shin
+  - tim-osborne
 
 tags:
   - Workshop
@@ -53,8 +56,10 @@ image:
   focal_point: Right
 
 links:
-  - name: Call for Papers
+  - name: Program
     url: /workshop2026/
+  - name: SC26 schedule
+    url: https://sc26.conference-program.com/session/?sess=sess153
   - name: SC26
     url: https://sc26.supercomputing.org/
 
@@ -67,7 +72,9 @@ profile: false
 
 ## About the Workshop
 
-HPC-ODA 2026 is the first peer-reviewed edition of the HPC Operational Data Analytics meeting series, held in conjunction with SC26 in Chicago. The workshop provides a dedicated venue for researchers, practitioners, operators, tool developers, and students working at the intersection of HPC systems, telemetry, monitoring, and analytics.
+HPC-ODA 2026 is the first peer-reviewed edition of the HPC Operational Data Analytics meeting series, held with SC26 in Chicago. Submissions are closed. The program is the one published on the SC26 schedule.
+
+The workshop runs Friday, 20 November 2026, 8:30am to 12:00pm US Central, in Room W190b at McCormick Place.
 
 ## Topics of Interest
 
@@ -80,18 +87,22 @@ HPC-ODA 2026 is the first peer-reviewed edition of the HPC Operational Data Anal
 
 ## Submissions
 
-Full papers (8 IEEE pages), short papers (4 IEEE pages), and lightning talks (5-minute presentations with 1 to 2 page extended abstracts) are accepted. All submissions are peer-reviewed.
+Submissions are closed. The call accepted full papers (8 IEEE pages), short papers (4 IEEE pages), and lightning talks (5-minute presentations with 1 to 2 page extended abstracts). All submissions were peer-reviewed.
+
+The full and short paper deadline was extended from July 31, 2026 to August 12, 2026 (11:59 PM AoE).
 
 ## Important Dates (All 11:59 PM AoE)
 
-- **July 31, 2026**, Full / Short Paper Submission Deadline
-- **September 4, 2026**, Author Notification
-- **September 18, 2026**, Camera-Ready Deadline
-- **September 18, 2026**, Lightning Talk Submission Deadline
-- **September 25, 2026**, Lightning Talk Notification
+- ~~**July 31, 2026**, Full / short paper submission deadline (original)~~
+- ~~**August 12, 2026**, Full / short paper submission deadline (extended)~~
+- ~~**September 4, 2026**, Author notification~~
+- ~~**September 18, 2026**, Camera-ready deadline~~
+- ~~**September 18, 2026**, Lightning talk submission deadline~~
+- ~~**September 25, 2026**, Lightning talk notification~~
+- **November 20, 2026**, Workshop, 8:30am-12:00pm US Central, Room W190b
 
 ## Publication
 
 Accepted full and short papers will appear in the SC26 workshop proceedings in the IEEE Xplore Digital Library. A workshop report will be published through the EE HPC WG Operational Data Analytics team website.
 
-For full details including the Call for Papers, submission templates, and organizing committee, see the [workshop page](/workshop2026/).
+For the agenda, accepted presentations, and organizing committee, see the [workshop page](/workshop2026/).
