@@ -11,7 +11,7 @@ address:
   postcode: '60616'
   country: United States
 
-summary: SC26 Birds of a Feather on agentic AI for HPC facility operations. Wednesday, 18 November 2026, 12:15pm-1:15pm US Central, McCormick Place Room W183b.
+summary: SC26 Birds of a Feather on where agentic AI fits in HPC facility operations. A four-person panel and audience polls, Wednesday, November 18, 12:15pm to 1:15pm CST, Room W183b.
 abstract: |-
   Operational data analytics (ODA) has become essential for understanding and
   optimizing HPC systems. However, converting the vast amounts of operational
@@ -19,28 +19,25 @@ abstract: |-
   effort and domain expertise. Agentic AI has the potential to extend
   traditional analytics by reading telemetry, correlating signals, diagnosing
   problems, and drafting fixes for an operator to approve. This BoF will
-  explore the state of the art in agentic AI's applicability to ODA, promising
-  use cases, limitations, and governance challenges. Participants will share
-  experiences and discuss how agentic AI can enhance future HPC operations
-  and efficiency.
+  explore agentic AI's applicability to ODA, promising use cases, limitations,
+  and governance challenges. Participants will share experiences and discuss
+  how agentic AI can enhance future HPC operations and efficiency.
 
-# Official SC26 schedule: Wednesday 18 November 2026, 12:15pm-1:15pm CST (UTC-6).
+# Wednesday, November 18, 2026, 12:15pm-1:15pm CST
 date: '2026-11-18T12:15:00-06:00'
 date_end: '2026-11-18T13:15:00-06:00'
 all_day: false
 
-publishDate: '2026-11-04T00:00:00Z'
+publishDate: '2026-11-11T00:00:00Z'
 
-# Site profiles that match the official session-leader list.
-# People without a profile are named in the body and are not omitted from the session.
 authors:
+  - woong-shin
+  - tim-osborne
+  - melissa-romanus
+  - kathleen-shoga
   - keiji-yamamoto
   - jeff-hanson
-  - kathleen-shoga
-  - melissa-romanus
   - michael-ott
-  - tim-osborne
-  - woong-shin
 
 tags:
   - Birds of a Feather
@@ -50,7 +47,13 @@ featured: true
 
 image:
   caption: ''
-  focal_point: Right
+  focal_point: Center
+
+links:
+  - name: SC26 schedule
+    url: https://sc26.conference-program.com/presentation/?id=bof215&sess=sess395
+  - name: HPC-ODA 2026 workshop
+    url: /workshop2026/
 
 url_code: ''
 url_pdf: ''
@@ -59,41 +62,38 @@ url_video: ''
 profile: false
 ---
 
-## Session
+## About the Session
 
-The official SC26 title is **Operational Data Analytics: Agentic AI for HPC Facilities**. It is a Birds of a Feather session on Wednesday, 18 November 2026, 12:15pm to 1:15pm US Central, in Room W183b at McCormick Place. Source: [SC26 schedule, presentation bof215, session sess395](https://sc26.conference-program.com/presentation/?id=bof215&sess=sess395).
+The EE HPC WG Operational Data Analytics team has held ODA Birds of a Feather sessions at SC and ISC since SC19. This year's question: where do AI agents fit in the ODA loop of monitoring, visualizing, diagnosing, forecasting, and controlling HPC systems?
 
-The schedule lists the session as livestreamed and recorded. Registration categories on the schedule are Tech Program (TP), Workshop (W), Tutorial (TUT), and Exhibits (XO/EX).
+Sites are moving from chat assistants toward agents that call tools against operational data. The session looks at which operational tasks are worth handing to an agent, what evidence an operator needs before trusting a diagnosis or an action, and how the community could evaluate agents without opening production data. Sites that have not started with agents are welcome.
+
+The session is livestreamed and recorded.
 
 ## Format
 
-Four panelists give short statements. The session then opens for discussion, with Mentimeter polls.
+At least half of the hour is interactive.
 
-**TODO:** The SC26 schedule does not say which four people are the panelists. It lists one session leader and twelve additional session leaders. Those names are below. Panelist names are not filled in here.
+- **Welcome and framing.** The series so far, this year's question, and quick room polls.
+- **Panel statements.** Each panelist gives a two-minute statement: where their work stands, one benefit and one limitation, and one question for the community.
+- **Moderated discussion.** Three poll-led blocks: what is worth doing, when we can trust it, and how we evaluate it.
+- **Open Q&A.** Audience questions collected on Mentimeter throughout the hour, with upvoting.
 
-## Session leader
+## Panelists
 
-- Dong Dai, University of Delaware
+- **Keiji Yamamoto**, RIKEN Center for Computational Science (R-CCS)
+- **Steven Farrell**, Lawrence Berkeley National Laboratory (NERSC)
+- **Avisek Naug**, Hewlett Packard Enterprise
+- **Kevin Menear**, National Laboratory of the Rockies (NLR)
 
-## Additional session leaders
+Moderator: **Dong Dai**, University of Delaware
 
-Listed in the order published on the SC26 schedule:
+## Organizers
 
-- Kevin Menear, National Laboratory of the Rockies (NLR)
-- Avisek Naug, HPE
-- Keiji Yamamoto, RIKEN Center for Computational Science (R-CCS)
-- Steven Farrell, Lawrence Berkeley National Laboratory (LBNL)
-- Jeff Hanson, HPE
-- Kathleen Shoga, Lawrence Livermore National Laboratory (LLNL)
-- Melissa Romanus, Lawrence Berkeley National Laboratory (LBNL)
-- Michael Ott, Leibniz Supercomputing Centre (LRZ); Energy Efficient High Performance Computing Working Group (EE HPC WG)
-- Nil Mu, Arizona State University
-- Paul Brunk, University of Georgia
-- Tim Osborne, Oak Ridge National Laboratory (ORNL)
-- Woong Shin, Oak Ridge National Laboratory (ORNL)
+Dong Dai (University of Delaware), Woong Shin (ORNL), Tim Osborne (ORNL), Melissa Romanus (LBNL), Kathleen Shoga (LLNL), Nil Mu (Arizona State University), Paul Brunk (University of Georgia), Jeff Hanson (HPE), and Michael Ott (LRZ, EE HPC WG).
 
-The author line on this page includes only the session leaders who already have a profile on this site. Dong Dai, Kevin Menear, Avisek Naug, Steven Farrell, Nil Mu, and Paul Brunk are session leaders in the schedule and do not yet have profiles here.
+## After SC26
 
-## Abstract
+The organizers will collect the session's discussion, poll results, and references into a technical report published through the EE HPC WG. If you want to help with a follow-up task, talk to the organizers after the session.
 
-The abstract above is the description published on the SC26 schedule.
+The ODA community's peer-reviewed workshop, [HPC-ODA 2026](/workshop2026/), follows on Friday, November 20, 8:30am to 12:00pm CST, in Room W190b.
