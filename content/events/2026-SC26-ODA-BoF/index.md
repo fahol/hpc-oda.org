@@ -75,7 +75,7 @@ The session is livestreamed and recorded.
 At least half of the hour is interactive.
 
 - **Welcome and framing.** The series so far, this year's question, and quick room polls.
-- **Panel statements.** Each panelist gives a two-minute statement: where their work stands, one benefit and one limitation, and one question for the community.
+- **Panel statements.** Each panelist gives a three-minute statement: where their work stands, statement to the community, and suggestions for a pilot project.
 - **Moderated discussion.** Three poll-led blocks: what is worth doing, when we can trust it, and how we evaluate it.
 - **Open Q&A.** Audience questions collected on Mentimeter throughout the hour, with upvoting.
 
@@ -86,7 +86,7 @@ At least half of the hour is interactive.
 - **Avisek Naug**, Hewlett Packard Enterprise
 - **Kevin Menear**, National Laboratory of the Rockies (NLR)
 
-Moderator: **Dong Dai**, University of Delaware
+Moderators: **Dong Dai** University of Delaware, **Woong Shin** ORNL,
 
 ## Organizers
 
@@ -95,5 +95,7 @@ Dong Dai (University of Delaware), Woong Shin (ORNL), Tim Osborne (ORNL), Meliss
 ## After SC26
 
 The organizers will collect the session's discussion, poll results, and references into a technical report published through the EE HPC WG. If you want to help with a follow-up task, talk to the organizers after the session.
+
+The ODA discussion group, follows on Wednesday, November 18, 3:00pm to 4:00pm, at the [EE HPC WG booth in the SC26 Exhibitions (Booth 5358)](https://hallerickson.ungerboeck.com/prod/app85.cshtml?aat=337677594373777a4156615838445849366d7042356245527458414a394c7755685656754c6770492b31773d)).
 
 The ODA community's peer-reviewed workshop, [HPC-ODA 2026](/workshop2026/), follows on Friday, November 20, 8:30am to 12:00pm CST, in Room W190b.
