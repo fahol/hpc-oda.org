@@ -7,7 +7,7 @@ authors:
   - woong-shin
   - natalie-bates
   - melissa-romanus
-featured: true
+featured: false
 tags:
   - Workshop
   - SC26
