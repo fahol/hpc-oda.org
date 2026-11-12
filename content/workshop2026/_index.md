@@ -14,32 +14,96 @@ sections:
       columns: '1'
     content:
       title: 'HPC-ODA 2026'
-      subtitle: 'HPC-ODA 2026'
+      subtitle: 'SC26 Workshop'
       text: |-
         ## 1st International Workshop on HPC Operational Data Analytics
-        *Held in conjunction with IEEE/ACM SC 2026, The International Conference for High Performance Computing, Networking, Storage and Analysis, in Chicago, IL*
+        *Held in conjunction with SC26, The International Conference for High Performance Computing, Networking, Storage, and Analysis, in Chicago, IL*
 
-        **Friday, 20 November 2026, 8:30am - 12:30pm**
+        **Friday, November 20, 2026, 8:30am to 12:00pm CST**<br>
+        **Room W190b, McCormick Place, Chicago**
 
-        [Call for Participation](#call-for-participation) &nbsp;·&nbsp; [Important Dates](#important-dates) &nbsp;·&nbsp; [Publication](#publication)
+        [Program](#program) &nbsp;·&nbsp; [Organizing Committee](#organizing-committee) &nbsp;·&nbsp; [Technical Program Committee](#technical-program-committee) &nbsp;·&nbsp; [SC26 schedule](https://sc26.conference-program.com/session/?sess=sess153)
 
-        
         ---
+
+        ## Program
+
+        HPC-ODA 2026 received 36 submissions from academia, national laboratories, and industry across North America, Europe, and Asia. Each submission received three reviews. The committee accepted ten papers for the SC26 workshop proceedings (seven full papers and three short papers) and one lightning talk.
+
+        Full papers have 20-minute slots, short papers 10 minutes, and the lightning talk 5 minutes. All times are US Central.
+
+        ### Session 1
+
+        - **8:30 - 8:35am** · Welcome and opening remarks<br>
+          Workshop organizers
+
+        - **8:35 - 8:55am** · Full paper<br>
+          **[A case study on the resource utilisation and queue dynamics of an institutional HPC system](https://sc26.conference-program.com/presentation/?id=ws_hpcoda112&sess=sess153)**<br>
+          Syed Ibtisam Tauhidi, Steven Cousens, David Laverty, David Smyth, Bronis de Supinski, Hans Vandierendonck (Queen's University Belfast)
+
+        - **8:55 - 9:15am** · Full paper<br>
+          **[On preprocessing heterogeneous HPC telemetry for use in foundation models and digital twins](https://sc26.conference-program.com/presentation/?id=ws_hpcoda121&sess=sess153)**<br>
+          Wesley Brewer, Ketan Maheshwari (ORNL), Qing Liu (Mississippi State University), Sean Wilkinson (ORNL), Bertrand Cirou, Gérard Gil (CINES), Jean Luca Bez (LBNL), Kaveen Hiniduma, Suren Byna (Ohio State University)
+
+        - **9:15 - 9:20am** · Lightning talk<br>
+          **[Perlmutter-Agent: Design and Early Deployment of a Local, Tool-Grounded LLM Assistant for HPC Incident Investigation](https://sc26.conference-program.com/presentation/?id=ws_odalt102&sess=sess153)**<br>
+          Siqi Deng (LBNL)
+
+        - **9:20 - 9:40am** · Full paper<br>
+          **[SORT: Slurm-Orchestrated ROCm Telemetry for Facility-wide GPU Observability on HPC Systems](https://sc26.conference-program.com/presentation/?id=ws_hpcoda113&sess=sess153)**<br>
+          Awais Khan, Nick Hagerty, Ahmad Maroof Karimi (ORNL), Michael E. Rowan (AMD), Jack Lange, Matthew Ezell, Christopher Zimmer, Scott Atchley (ORNL)
+
+        - **9:40 - 10:00am** · Full paper<br>
+          **[What is Your Cluster Actually Doing? Understanding Users, Utilization, and Performance Through Extensive Slurm Job Data Analysis](https://sc26.conference-program.com/presentation/?id=ws_hpcoda122&sess=sess153)**<br>
+          Strahinja Trecakov (New Mexico State University and New Mexico Consortium), Mohammad Al-Tahat, Jonathan Cook (New Mexico State University)
+
+        **10:00 - 10:30am** · Morning break
+
+        ### Session 2
+
+        - **10:30 - 10:50am** · Full paper<br>
+          **[Interactive Visualization of Data Center Monitoring Data on a 3D Cluster Model](https://sc26.conference-program.com/presentation/?id=ws_hpcoda131&sess=sess153)**<br>
+          Marketa Faltynkova, Petr Ptacek (IT4Innovations, VSB), Kashaf Ad Dooja (University of Bologna), Milan Jaros, Ondrej Vysocky (IT4Innovations), Josef Pasek (Brno University of Technology), Tomas Stratil, Petr Strakos, Lubomir Riha (IT4Innovations)
+
+        - **10:50 - 11:00am** · Short paper<br>
+          **[TULCA-Based Visual Analytics of HPC Operational Data: A Case Study of Fugaku Rack's Power Data](https://sc26.conference-program.com/presentation/?id=ws_hpcoda129&sess=sess153)**<br>
+          Kazuki Miyake (Kobe University and RIKEN R-CCS), Naohisa Sakamoto (Kobe University), Jorji Nonaka, Masaaki Terai, Yuji Iguchi (RIKEN R-CCS), Takanori Fujiwara (University of Arizona)
+
+        - **11:00 - 11:20am** · Full paper<br>
+          **[CQTwin: A Digital-Twin Toolkit for Operational Analytics of HPC Schedulers](https://sc26.conference-program.com/presentation/?id=ws_hpcoda102&sess=sess153)**<br>
+          Kanglin Xu, Yash Kurkure, Yihe Zhang (University of Illinois Chicago), Michael Papka (Argonne National Laboratory and University of Illinois Chicago), Zhiling Lan (University of Illinois Chicago and Argonne National Laboratory)
+
+        - **11:20 - 11:30am** · Short paper<br>
+          **[Emerging Personas and Tools for Hybrid Quantum-HPC Systems](https://sc26.conference-program.com/presentation/?id=ws_hpcoda123&sess=sess153)**<br>
+          Eun Lee, Jessie Yu, Claudio Carvalho, Yoonho Park, Marcelo Amaral (IBM), Tim Osborne, Woong Shin (ORNL)
+
+        - **11:30 - 11:50am** · Full paper<br>
+          **[Data-Driven Static MIG Planning for an H200 Research Cluster](https://sc26.conference-program.com/presentation/?id=ws_hpcoda136&sess=sess153)**<br>
+          Arsalan Akhter (Northeastern University)
+
+        - **11:50am - 12:00pm** · Short paper<br>
+          **[Towards MPI Communication Modeling From Passive Network Telemetry](https://sc26.conference-program.com/presentation/?id=ws_hpcoda103&sess=sess153)**<br>
+          Rui Liu (LBNL), Paul Lin, Evan Weinberg (NVIDIA), Dhruva Kulkarni, Zhengji Zhao (LBNL), Ian Karlin (Queen's University), Garima Kochhar (NVIDIA), Brian Austin (LBNL)
+
+        Papers will appear in the SC26 workshop proceedings in the IEEE Xplore Digital Library. A workshop report covering the lightning talk and discussion will be published through the EE HPC WG Operational Data Analytics team.
+
+        ---
+
         ## Workshop Description
 
         High-performance computing (HPC) systems generate vast streams of operational data: system logs, job scheduler records, hardware metrics, energy consumption, network performance, and environmental telemetry.
 
         This data is foundational to the entire HPC ecosystem. Operations teams rely on it for system reliability, efficiency, and predictable maintenance. Researchers need it for training AI/ML models, constructing digital twins, and studying system behavior at scale. Users need it to understand application behavior, diagnose performance bottlenecks, and optimize resource utilization.
 
-        Yet access to this data — and the ability to analyze it effectively — remains unevenly distributed across these communities. The **HPC Operational Data Analytics (HPC-ODA) Workshop** is a dedicated venue for bridging that gap.
+        Yet access to this data, and the ability to analyze it effectively, remains unevenly distributed across these communities. The **HPC Operational Data Analytics (HPC-ODA) Workshop** is a dedicated venue for bridging that gap.
 
-        Building on eight years of successful Birds-of-a-Feather sessions at SC and ISC, this inaugural workshop transitions to a peer-reviewed format to enable deeper technical engagement and lasting community collaboration. The workshop welcomes contributions from researchers, practitioners, operators, tool developers, students, and others working at the intersection of HPC systems, telemetry, monitoring, and analytics.
+        Building on eight years of successful Birds-of-a-Feather sessions at SC and ISC, this inaugural workshop transitions to a peer-reviewed format to enable deeper technical engagement and lasting community collaboration. The workshop brings together researchers, practitioners, operators, tool developers, students, and others who work at the intersection of HPC systems, telemetry, monitoring, and analytics.
 
         ---
 
         ## Topics of Interest
 
-        We welcome submissions on any aspect of operational data analytics in HPC, including but not limited to:
+        The call welcomed submissions on any aspect of operational data analytics in HPC, including:
 
         **{{< icon name="server-stack" >}} ODA Infrastructure and Engineering**
         - System integration and architecture
@@ -76,108 +140,65 @@ sections:
 
         ---
 
-        ## Call for Participation
+        ## Call for Participation (Closed)
 
-        ### Submission Guidelines
+        The call invited full papers (8 pages), short papers (4 pages), and lightning talks (1 to 2 page extended abstracts). Papers used the IEEE two-column conference format and went through single-blind peer review. The paper deadline was extended from July 31 to August 12, 2026.
 
-        ### {{< icon name="academic-cap" >}} Papers
-        
-        Papers may be submitted as either:
-
-          - **Short papers** — 4 two-column pages, appropriate for work-in-progress or focused contributions  
-          - **Full papers** — 8 two-column pages, for mature research contributions  
-
-        The page limit does not include references, acknowledgements, etc. All papers must be submitted in PDF format using the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) via the SC Linklings submission system (link below). Each submission will receive a minimum of three single-blind peer reviews.
-
-        In support of the [SC26 Reproducibility Initiative](https://sc26.supercomputing.org/program/papers/reproducibility-initiative/), authors may optionally submit an Artifact Description and Artifact Evaluation (AD/AE) appendix. This appendix will not be reviewed but will be included with papers after acceptance, in accordance with SC26 guidelines.
-
-        Accepted papers will be included in the workshop program and presented during the event. Presentation format and duration will be determined based on the final program.
-
-        ### {{< icon name="bolt" >}} Lightning Talks
-
-        Lightning talks provide an opportunity to present emerging work, operational experiences, tools, dashboards, and other contributions that may not be suitable for full or short paper submissions. Submissions are welcome from across the HPC community, including researchers, practitioners, and students. We especially encourage contributions that share early-stage ideas, operational insights, or practical experiences.
-
-        Lightning talk submissions should consist of an extended abstract (1–2 pages) in PDF format and must be submitted via the SC Linklings submission system (link below). There is no strict formatting requirement; however, submissions should be clear, well-structured, and comparable in scope to a short paper (e.g., including motivation, approach, and key outcomes). Submissions should be provided as a PDF.
-
-        Submissions will be peer-reviewed for relevance and quality. Accepted lightning talks will be allocated a 5-minute presentation slot and will be documented in the HPC-ODA workshop report published through the EE HPC WG.
-
-        - [Short/Long Paper submission link](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODASubmission&site=sc26)
-        - [Lightning Talk submission link](https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopHPCODALightningTalkSubmission&site=sc26)
-
-        ### {{< icon name="cpu-chip" >}} AI Use Policy
-
-        Content generated by AI tools must be clearly and thoroughly described in the submission. AI systems may not be credited as authors.
-
-        ---
-
-        ## Important Dates
-
-        All deadlines are **11:59 PM AoE (Anywhere on Earth)**.
-
-        - ~~**July 31, 2026** — Full / Short Paper Submission Deadline~~
-        - **August 12, 2026** — Full / Short Paper Submission Deadline
-        - **September 4, 2026** — Full / Short Paper Notification
-        - **September 18, 2026** — Camera-Ready Deadline
-        - **September 18, 2026** — Lightning Talk Submission Deadline
-        - **September 25, 2026** — Lightning Talk Notification
-        - **November 20, 2026**  — Workshop: 8:30am - 12:30pm
-
-        ---
-
-        ## Publication
-
-        Papers accepted and presented at **HPC-ODA 2026** will be published as part of the **SC26 workshop proceedings** in the **IEEE Xplore Digital Library**.
-
-        A workshop report covering the keynote, lightning talks, and open discussion will be published and distributed through the EE HPC WG Operational Data Analytics team website.
+        | Milestone | Date (AoE) |
+        | --- | --- |
+        | Paper submission deadline (extended) | August 12, 2026 |
+        | Paper notification | September 4, 2026 |
+        | Camera-ready and lightning talk deadline | September 18, 2026 |
+        | Lightning talk notification | September 25, 2026 |
+        | Workshop | November 20, 2026 |
 
         ---
 
         ## Organizing Committee
 
-        - [Michael Ott](https://www.linkedin.com/in/michael-ott-50037465), LRZ
-        - [Ayse Coskun](https://www.linkedin.com/in/aysecoskun/), Boston University
-        - [Jeff Hanson](https://www.linkedin.com/in/jeff-hanson-2862731/), HPE
-        - [Melissa Romanus](https://www.linkedin.com/in/melrom/), NERSC/LBNL
-        - [Woong Shin](https://www.linkedin.com/in/woongshin/), ORNL
-        - [Tim Osborne](https://www.linkedin.com/in/tim-osborne-9b442278/), ORNL
+        - [Ayse K. Coskun](https://www.linkedin.com/in/aysecoskun/), Boston University
+        - [Jeff Hanson](https://www.linkedin.com/in/jeff-hanson-2862731/), Hewlett Packard Enterprise
+        - [Tim Osborne](https://www.linkedin.com/in/tim-osborne-9b442278/), Oak Ridge National Laboratory
+        - [Michael Ott](https://www.linkedin.com/in/michael-ott-50037465), Leibniz Supercomputing Centre
+        - [Melissa Romanus](https://www.linkedin.com/in/melrom/), Lawrence Berkeley National Laboratory
+        - [Woong Shin](https://www.linkedin.com/in/woongshin/), Oak Ridge National Laboratory
 
-        ## Program Committee
-        - Lluis Alonso, Barcelona Supercomputing Center
+        ## Technical Program Committee
+
+        - Lluís Alonso Jané, Barcelona Supercomputing Center
         - Francesco Antici, University of Bologna
-        - Andrea Bartolini, University of Bologna
         - Insaf Benlamari, Leibniz Supercomputing Centre
-        - Mario Bielert, Technische Universität Dresden
+        - Mario Bielert, TU Dresden
         - Andrea Borghesi, University of Bologna
-        - Norman J Bourassa, Lawrence Berkeley National Laboratory/NERSC
+        - Norman J. Bourassa, Lawrence Berkeley National Laboratory
         - Jim Brandt, Sandia National Laboratories
         - Wesley Brewer, Oak Ridge National Laboratory
         - Paul Brunk, University of Georgia
         - Valeria Cardellini, Tor Vergata University of Rome
-        - Christian von Elm, Technische Universität Dresden
         - Wolfgang Frings, Jülich Supercomputing Centre
         - Filipe Guimarães, Jülich Supercomputing Centre
         - Leah Huk, Oak Ridge National Laboratory
         - Ahmad Maroof Karimi, Oak Ridge National Laboratory
         - Awais Khan, Oak Ridge National Laboratory
-        - Kadidia Konate, Lawrence Berkeley National Laboratory/NERSC
-        - Matthias Maiterth, NVIDIA
+        - Kadidia Konate, Lawrence Berkeley National Laboratory
         - Jan Mäder, Leibniz Supercomputing Centre
+        - Matthias Maiterth, NVIDIA
         - Kevin Menear, National Laboratory of the Rockies
-        - Beste	Oztop, Boston University
+        - Beste Oztop, Boston University
         - Rachel Palumbo, Oak Ridge National Laboratory
-        - Tapasya Patki, Lawrence Livermore National Laboratory
         - Pierrick Pochelu, LuxProvide
         - Jie Ren, College of William & Mary
         - Efe Sencan, Boston University
         - Kathleen Shoga, Lawrence Livermore National Laboratory
         - Frédéric Suter, Oak Ridge National Laboratory
         - Devesh Tiwari, Northeastern University
+        - Christian von Elm, TU Dresden
         - Torsten Wilde, Hewlett Packard Enterprise
-        - Daniel C. Wilson, Boston University
+        - Daniel C. Wilson, Emerald AI
         - Mike Woodacre, Hewlett Packard Enterprise
-        - Keiji	Yamamoto, RIKEN Center for Computational Science
+        - Keiji Yamamoto, RIKEN Center for Computational Science
 
         ## Collaborators
 
-        Energy Efficiency HPC Working Group, Operational Data Analytics Team
+        Energy Efficient HPC Working Group (EE HPC WG), Operational Data Analytics Team
 ---

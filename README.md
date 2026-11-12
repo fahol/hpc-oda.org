@@ -604,7 +604,7 @@ The built site will be in the `public/` directory.
 The site is automatically deployed via Cloudflare Pages:
 
 - **Production**: Push to `main` branch → deploys to [https://hpc-oda.org](https://hpc-oda.org)
-- **Staging**: Push to `develop` branch → deploys to [https://develop.hpc-oda.pages.dev](https://develop.hpc-oda.pages.dev)
+- **Staging**: Push to `develop` branch → deploys to [https://develop.hpc-oda-org.pages.dev](https://develop.hpc-oda-org.pages.dev)
 
 ### Manual Deployment
 

@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Name
+draft: true
 
 # Full name (for SEO)
 first_name: Firstname

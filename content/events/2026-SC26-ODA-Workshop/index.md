@@ -1,45 +1,40 @@
 ---
 title: "1st International Workshop on HPC Operational Data Analytics (HPC-ODA 2026)"
 event: "SC26 -- The International Conference for High Performance Computing, Networking, Storage, and Analysis"
-event_url: https://sc26.supercomputing.org/
+event_url: https://sc26.conference-program.com/session/?sess=sess153
 
-location: "SC26, Chicago, IL (exact room to be announced)"
+location: "McCormick Place, Room W190b"
 address:
+  street: 2301 S Martin Luther King Dr
   city: Chicago
   region: Illinois
+  postcode: '60616'
   country: United States
 
-summary: Inaugural peer-reviewed HPC-ODA workshop at SC26 in Chicago. Paper and lightning talk submissions open; CFP deadline July 31, 2026.
+summary: The first peer-reviewed HPC-ODA workshop, held with SC26 in Chicago. Ten papers and one lightning talk on Friday, November 20, 8:30am to 12:00pm CST, Room W190b.
 abstract: |-
-  The 1st International Workshop on HPC Operational Data Analytics (HPC-ODA 2026)
-  will be held in conjunction with SC26 in Chicago, Illinois. Building on eight
-  years of successful Birds-of-a-Feather sessions at SC and ISC, the workshop
-  transitions the HPC-ODA community to a peer-reviewed format, enabling deeper
-  technical engagement and producing archival publications in the IEEE Xplore
-  Digital Library as part of the SC26 workshop proceedings.
+  HPC-ODA 2026 is the first peer-reviewed edition of the operational data
+  analytics meeting series that began as Birds-of-a-Feather sessions at SC and
+  ISC. The program has seven full papers, three short papers, and one lightning
+  talk on telemetry pipelines, job and queue analytics, visualization, digital
+  twins, and LLM agents for HPC operations. Papers appear in the SC26 workshop
+  proceedings in the IEEE Xplore Digital Library.
 
-  The workshop welcomes full papers (8 pages), short papers (4 pages), and
-  5-minute lightning talks on any aspect of operational data analytics in HPC:
-  ODA infrastructure, data collection pipelines, visualization and analytics,
-  machine learning, standardization and governance, energy and sustainability,
-  digital twins, and HPC use cases and best practices.
-
-  See the [Call for Papers](/workshop2026/) for submission details and deadlines.
-
-# Event start and end times. Exact workshop day at SC26 TBA;
-# placeholder within SC26 conference week.
-date: '2026-11-16T00:00:00Z'
-date_end: '2026-11-16T23:59:00Z'
-all_day: true
+# Friday, November 20, 2026, 8:30am-12:00pm CST
+date: '2026-11-20T08:30:00-06:00'
+date_end: '2026-11-20T12:00:00-06:00'
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2026-04-20T00:00:00Z'
 
 authors:
   - michael-ott
-  - woong-shin
-  - natalie-bates
+  - ayse-coskun
+  - jeff-hanson
   - melissa-romanus
+  - woong-shin
+  - tim-osborne
 
 tags:
   - Workshop
@@ -53,8 +48,10 @@ image:
   focal_point: Right
 
 links:
-  - name: Call for Papers
+  - name: Program
     url: /workshop2026/
+  - name: SC26 schedule
+    url: https://sc26.conference-program.com/session/?sess=sess153
   - name: SC26
     url: https://sc26.supercomputing.org/
 
@@ -67,31 +64,28 @@ profile: false
 
 ## About the Workshop
 
-HPC-ODA 2026 is the first peer-reviewed edition of the HPC Operational Data Analytics meeting series, held in conjunction with SC26 in Chicago. The workshop provides a dedicated venue for researchers, practitioners, operators, tool developers, and students working at the intersection of HPC systems, telemetry, monitoring, and analytics.
+HPC-ODA 2026 brings together HPC operators, monitoring experts, data analytics researchers, and users to share experience with operational data and the tools built on it. It grew out of eight years of ODA Birds-of-a-Feather sessions at SC and ISC, organized with the Energy Efficient HPC Working Group.
 
-## Topics of Interest
+The workshop runs Friday, November 20, 2026, 8:30am to 12:00pm CST, in Room W190b at McCormick Place. The full program, with authors and links to the SC26 schedule, is on the [workshop page](/workshop2026/#program).
 
-- ODA infrastructure and engineering
-- Data visualization and analytics, including machine learning applications
-- Data standardization, management, and governance
-- HPC use cases and data impact (energy, performance, anomaly detection, lifecycle)
-- Best practices and case studies
-- Emerging technologies (digital twins, LLMs for operations, multi-site and hybrid HPC)
+## Program at a Glance
 
-## Submissions
-
-Full papers (8 IEEE pages), short papers (4 IEEE pages), and lightning talks (5-minute presentations with 1 to 2 page extended abstracts) are accepted. All submissions are peer-reviewed.
-
-## Important Dates (All 11:59 PM AoE)
-
-- **July 31, 2026**, Full / Short Paper Submission Deadline
-- **September 4, 2026**, Author Notification
-- **September 18, 2026**, Camera-Ready Deadline
-- **September 18, 2026**, Lightning Talk Submission Deadline
-- **September 25, 2026**, Lightning Talk Notification
+| Time (CST) | Presentation | Type |
+| --- | --- | --- |
+| 8:30 | Welcome and opening remarks | |
+| 8:35 | A case study on the resource utilisation and queue dynamics of an institutional HPC system | Full |
+| 8:55 | On preprocessing heterogeneous HPC telemetry for use in foundation models and digital twins | Full |
+| 9:15 | Perlmutter-Agent: Design and Early Deployment of a Local, Tool-Grounded LLM Assistant for HPC Incident Investigation | Lightning |
+| 9:20 | SORT: Slurm-Orchestrated ROCm Telemetry for Facility-wide GPU Observability on HPC Systems | Full |
+| 9:40 | What is Your Cluster Actually Doing? Understanding Users, Utilization, and Performance Through Extensive Slurm Job Data Analysis | Full |
+| 10:00 | Morning break | |
+| 10:30 | Interactive Visualization of Data Center Monitoring Data on a 3D Cluster Model | Full |
+| 10:50 | TULCA-Based Visual Analytics of HPC Operational Data: A Case Study of Fugaku Rack's Power Data | Short |
+| 11:00 | CQTwin: A Digital-Twin Toolkit for Operational Analytics of HPC Schedulers | Full |
+| 11:20 | Emerging Personas and Tools for Hybrid Quantum-HPC Systems | Short |
+| 11:30 | Data-Driven Static MIG Planning for an H200 Research Cluster | Full |
+| 11:50 | Towards MPI Communication Modeling From Passive Network Telemetry | Short |
 
 ## Publication
 
-Accepted full and short papers will appear in the SC26 workshop proceedings in the IEEE Xplore Digital Library. A workshop report will be published through the EE HPC WG Operational Data Analytics team website.
-
-For full details including the Call for Papers, submission templates, and organizing committee, see the [workshop page](/workshop2026/).
+Accepted papers appear in the SC26 workshop proceedings in the IEEE Xplore Digital Library. A workshop report will be published through the EE HPC WG Operational Data Analytics team.
