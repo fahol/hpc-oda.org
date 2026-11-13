@@ -1,0 +1,14 @@
+/* Widen the main page content */
+.max-w-screen-xl {
+    max-width: 1200px !important;
+}
+
+/* Widen article and prose content */
+.max-w-prose {
+    max-width: 1000px !important;
+}
+
+/* Allow tables to use the available width */
+table {
+    width: 100%;
+}
